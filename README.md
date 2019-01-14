@@ -1,2 +1,2 @@
-# milanmaheshwari.github.io
-milan maheshwari portfolio
+# Milan-Portfolio
+Portfolio

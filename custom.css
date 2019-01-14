@@ -1,0 +1,2656 @@
+
+[class*="col-"] {
+  padding: 0px;
+}
+
+
+
+@media (min-width: 1200px){
+
+.row{
+  margin: 0px;
+  clear: left;
+}
+.mynavbar{
+height: 80px;
+margin-bottom: 0px;
+border-bottom: 0.5px solid rgba(5,4,1,0.3);
+
+}
+
+.mycontainer{
+  height: 80px;
+  padding: 0px;
+}
+
+.mynavbarheader{
+  height: 80px;
+}
+
+.mynavbarbrand{
+  height: 80px;
+  padding: 6px 0px 4px;
+}
+
+.mynavlinks{
+  height: 80px;
+  padding: 16px 0px;
+}
+
+.container{
+  padding: 0px;
+  width: 1136px;
+}
+
+.work-rows{
+  margin: 100px 0px;
+}
+
+.about-rows1{
+  margin: 160px 0px 100px;
+
+}
+
+.about-rows2{
+  margin: 100px 0px;
+}
+
+.intro-message{
+  padding: 10% 0%;
+}
+
+.intro-message h1{
+  margin-bottom: 28px;
+  text-shadow: none;
+  font-size: 56;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  color: #050401;
+}
+
+.intro-message p{
+  font-size: 20px;
+  line-height: 40px;
+  font-family: 'Open Sans', sans-serif;
+  width: 720px;
+  font-weight: 400;
+  margin: auto;
+  margin-bottom: 56px;
+  color: #7D7C84;
+}
+
+.myshortcta{
+  width: 176px;
+  height: 48px;
+  background-color: #FF7D49;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border: none;
+  color: #FFFFFF;
+}
+
+.mylongcta{
+  width: 272px;
+  height: 48px;
+  background-color: #FF7D49;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  border: none;
+  color: #FFFFFF;
+}
+
+.myshortcta:hover{
+  background-color: #FF9266;
+  color: #FFFFFF;
+}
+
+.mylongcta:hover{
+  background-color: #FF9266;
+  color: #FFFFFF;
+}
+
+
+.work-image{
+  border-radius: 4px;
+}
+
+.myworktext{
+  margin-left: 64px;
+}
+
+h2.section-heading {
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+line-height: 44px;
+font-size: 24px;
+color: #050401;
+opacity: 1;
+margin-bottom: 0px;
+
+}
+
+h2.myaboutheading{
+  margin-bottom: 0px;
+  font-size: 40px;
+  margin-top: 12px;
+}
+
+.work-para {
+
+font-family: 'Open Sans', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+text-align: left;
+line-height: 32px;
+color: #7D7C84;
+width: 100%;
+margin-bottom: 48px;
+margin-top: 28px;
+}
+
+.myaboutpara2{
+  margin-top: 0px;
+}
+
+/*.container{
+  width: 1136px;
+}*/
+
+.myworktext h2{
+  margin-bottom: 0px;
+}
+
+#hiddenworkrows{
+  display: none;
+}
+
+.workrowsalt .myworktext{
+margin-left: -480px;
+}
+
+.workrowsalt .myworkimg{
+  padding-left: 480px;
+}
+
+.hiddenworkrows .workrowsalt .myworktext{
+margin-left: -480px;
+}
+
+.hiddenworkrows .workrowsalt .myworkimg{
+  padding-left: 480px;
+}
+
+
+.intro-message-contact {
+position: relative;
+padding-bottom: 48px;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+line-height: 48px;
+font-size: 24px;
+text-align: center;
+color: #050401;
+
+
+}
+
+.mycontent{
+  border-bottom: 0.5px solid rgba(5,4,1,0.3);
+}
+
+.intro-header-contact {
+padding-top: 96px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+padding-bottom: 96px;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+line-height: 47px;
+font-size: 24px;
+color: #050401;
+position: relative;
+}
+
+.mycontactmessage p{
+  margin-bottom: 48px;
+}
+
+.extlink{
+  padding: 0px 12px;
+}
+
+.myviewmore{
+  margin: auto;
+  margin-bottom: 100px;
+  padding: 0px 42.4%;
+
+}
+
+.viewmore{
+  padding: 0px;
+  border-radius: 4px;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  width: 180px;
+  height: 48px;
+  background-color: #FFFFFF;
+  border: none;
+  color: #333138;
+  box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
+
+}
+
+.viewmore:hover{
+   box-shadow: 0px 8px 24px rgba(5, 4, 1, 0.06);
+}
+
+.myshortcta, .mylongcta:focus{
+outline: none;
+}
+.myshortcta, .mylongcta:active{
+outline: none;
+}
+
+.scrollindicator{
+  position: absolute;
+  left: 48.2%;
+  top: 524px;
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    border-bottom: 0.5px solid rgba(5,4,1,0.3);
+    background-size: cover;
+    height: 720px;
+
+}
+
+.navbar-default{
+  background-color: rgba(255,255,255,0.95);
+}
+
+.topnav {
+    font-size: 16px;
+    /*border-bottom: 1px outset rgba(192, 192, 192, 0.5);*/
+
+    /*box-shadow: 0px 1px rgba(0, 0, 0, 0.3);*/
+
+}
+.topnav ul.navbar-nav li a {
+background:transparent;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+font-size: 16px;
+text-align: center;
+color: #333138;
+opacity: 1;
+
+}
+
+.me1rec{
+  position: absolute;
+  left: -22px;
+  top: -20px;
+  z-index: -2;
+}
+
+.me2rec{
+  position: absolute;
+  left: -24px;
+  top: -32px;
+  z-index: -2;
+}
+
+.myaboutpara1{
+  margin-top: 24px;
+
+}
+
+img.hobbies{
+  position: relative;
+  top: -32px;
+}
+
+.photosrow{
+  position: relative;
+}
+
+.photosrec{
+  position: absolute;
+  left: -28px;
+  top: -32px;
+  z-index: -2;
+}
+
+.about-rows3{
+  margin: 80px 0px;
+}
+
+.about-rows4{
+  margin-bottom: 140px;
+}
+
+.photos{
+border-bottom: 0.5px solid rgba(5,4,1,0.3);
+}
+
+.carousel-indicators li{
+  background-color: #999999;
+}
+
+.carousel-indicators li.active{
+  background-color: #050401;
+
+}
+
+.carousel-indicators{
+  top: 332px;
+}
+
+.mycarouselouter{
+  height: 380px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
+  border-radius: 4px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.companylogo{
+  float: left;
+  margin-left: 152px;
+  margin-bottom: 24px;
+}
+
+.myexpheading{
+  float: left;
+  margin-left: 40px;
+  margin-bottom: 24px;
+}
+
+.myexpheader{
+  margin-top: 48px;
+}
+
+.myexpheading h1{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  font-size: 20px;
+  color: #333138;
+  opacity: 1;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.myexpheading h2{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 16px;
+  margin-top: 8px;
+  color: #7D7C84;
+  opacity: 1;
+}
+
+p.myexpcontent{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  line-height: 32px;
+  padding: 0px 40px;
+  margin: 0px;
+  color: #333138;
+  opacity: 1;
+}
+
+.mysectionheading{
+  padding-bottom: 0px;
+}
+
+.mysectionheading h1{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+line-height: 60px;
+font-size: 32px;
+text-align: center;
+color: #050401;
+margin-bottom: 0px;
+margin-top: 20px;
+}
+
+.mysectionheading p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 16px;
+  text-align: center;
+  color: #7D7C84;
+  width: 72%;
+  margin: 24px auto 0px;
+}
+
+.myexperience{
+  margin: 40px 0px;
+  position: relative;
+}
+
+h2.myaboutheader{
+  font-size: 32px;
+  line-height: 60px;
+}
+
+.myexptext{
+  clear: left;
+}
+
+img.hobbies2{
+  display: none;
+
+}
+
+.mypics2, .photosrec2{
+  display: none;
+}
+
+.contactcontent{
+  margin: 140px 0px 140px;
+}
+
+.contact-hello{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  font-size: 40px;
+  color: #050401;
+  opacity: 1;
+  margin: 0px 0px 4px;
+}
+
+.intro-message-contact-page p, .contact-email p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 16px;
+  color: #7D7C84;
+  opacity: 1;
+  margin: 12px 0px;
+}
+
+h3.email-contact{
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: 700;
+ line-height: normal;
+ font-size: 16px;
+ color: #333138;
+ margin: 0px;
+}
+
+.contact-email{
+  margin-top: 56px;
+}
+
+.contact-findme{
+  margin-top: 40px;
+}
+
+.findme-links{
+  margin: 24px 0px;
+  position: relative;
+  left: -12px;
+}
+
+.form-group{
+  margin-bottom: 40px;
+  margin-top: 4px;
+}
+
+.form-group label{
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  color: #333138;
+}
+
+.form-group input{
+  height: 40px;
+}
+
+
+.contact-form button{
+  margin-top: 20px;
+}
+
+
+
+img.homegreenrec{
+  position: absolute;
+  left: 0px;
+  top:  176px;
+}
+
+img.homebluerec{
+  position: absolute;
+  right: 0px;
+  top:  160px;
+}
+
+img.homeyellowrec{
+  position: absolute;
+  left: 144px;
+  top:  560px;
+}
+
+img.contactgreenrec_home{
+  position: absolute;
+  right: 0px;
+  top:  144px;
+}
+
+img.contactbluerec_home{
+  position: absolute;
+  left: 0px;
+  top:  372px;
+}
+
+img.contactyellowrec_home{
+  position: absolute;
+  left: 82px;
+  top:  64px;
+}
+
+img.contactgreenrec_about{
+  position: absolute;
+  right: 0px;
+  top:  144px;
+}
+
+img.contactbluerec_about{
+  position: absolute;
+  left: 0px;
+  top:  372px;
+}
+
+img.contactyellowrec_about{
+  position: absolute;
+  left: 82px;
+  top:  64px;
+}
+
+img.expgreenrec{
+  position: absolute;
+  left: 56px;
+  top:  28px;
+}
+
+img.expbluerec{
+  position: absolute;
+  left: 0px;
+  top:  500px;
+}
+
+img.exporangerec{
+  position: absolute;
+  right: 0px;
+  top:  88px;
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199px){
+
+
+  .mynavbarbrand img{
+    width: 251px;
+    height: 61px;
+  }
+
+  .container{
+    width: 920px;
+  }
+
+  .navbar-default{
+    background-color: rgba(255,255,255,0.95);
+  }
+
+  .mynavbar{
+  height: 80px;
+  margin-bottom: 0px;
+  border-bottom: 0.5px solid rgba(5,4,1,0.3);
+
+  }
+
+  .mycontainer{
+    height: 80px;
+    padding: 0px;
+  }
+
+  .mynavbarheader{
+    height: 80px;
+  }
+
+  .mynavbarbrand{
+    height: 80px;
+    padding: 10px 0px;
+  }
+
+  .mynavlinks{
+    height: 80px;
+    padding: 16px 0px;
+  }
+
+  .container{
+    padding: 0px;
+  }
+
+  .work-rows{
+    margin: 80px 0px;
+  }
+
+  .intro-message{
+    padding: 10% 0%;
+  }
+
+  .intro-message h1{
+    margin-bottom: 24px;
+    text-shadow: none;
+    font-size: 48;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #050401;
+  }
+
+  .intro-message p{
+    font-size: 16px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    width: 640px;
+    font-weight: 500;
+    margin: auto;
+    margin-bottom: 48px;
+    color: #7D7C84;
+  }
+
+  .myshortcta{
+    width: 176px;
+    height: 48px;
+    background-color: #FF7D49;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  .mylongcta{
+    width: 272px;
+    height: 48px;
+    background-color: #FF7D49;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  .myshortcta:hover{
+    background-color: #FF9266;
+    color: #FFFFFF;
+  }
+
+  .mylongcta:hover{
+    background-color: #FF9266;
+    color: #FFFFFF;
+  }
+
+
+  .work-image{
+    border-radius: 4px;
+  }
+
+
+
+  h2.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  font-size: 20px;
+  color: #050401;
+  opacity: 1;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .work-para {
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  line-height: 32px;
+  color: #7D7C84;
+  width: 100%;
+  margin-bottom: 36px;
+  margin-top: 16px;
+  }
+
+.myaboutpara2{
+  margin-top: 0px;
+}
+  /*.container{
+    width: 1136px;
+  }*/
+
+  .myworktext{
+    margin-left: 36px;
+  }
+
+  .myworktext h2{
+    margin-bottom: 0px;
+  }
+
+  #hiddenworkrows{
+    display: none;
+  }
+
+  .workrowsalt .myworktext{
+  margin-left: -380px;
+  }
+
+  .workrowsalt .myworkimg{
+    padding-left: 380px;
+  }
+
+  .hiddenworkrows .workrowsalt .myworktext{
+  margin-left: -380px;
+  }
+
+  .hiddenworkrows .workrowsalt .myworkimg{
+    padding-left: 380px;
+  }
+
+
+
+  .intro-message-contact {
+  position: relative;
+  padding-bottom: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  font-size: 24px;
+  text-align: center;
+  color: #050401;
+
+  }
+
+  .mycontent{
+    border-bottom: 0.5px solid rgba(5,4,1,0.3);
+  }
+
+  .intro-header-contact {
+  padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 47px;
+  font-size: 24px;
+  color: #050401;
+  position: relative;
+  }
+
+  .mycontactmessage p{
+    margin-bottom: 36px;
+  }
+
+  .extlink{
+    padding: 0px 12px;
+  }
+
+  .myviewmore{
+    margin: auto;
+    margin-bottom: 80px;
+    padding: 0px 38%;
+
+  }
+
+  .viewmore{
+
+    padding: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 180px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #333138;
+    box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
+
+  }
+
+  .viewmore:hover{
+     box-shadow: 0px 8px 24px rgba(5, 4, 1, 0.06);
+  }
+
+  .myshortcta, .mylongcta:focus{
+  outline: none;
+  }
+  .myshortcta, .mylongcta:active{
+  outline: none;
+  }
+
+  .scrollindicator{
+    position: absolute;
+    left: 48.2%;
+    top: 460px;
+  }
+
+  .intro-header {
+      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 50px;
+      text-align: center;
+      border-bottom: 0.5px solid rgba(5,4,1,0.3);
+      background-size: cover;
+      height: 620px;
+
+  }
+
+  .myworkimg img{
+    width: 360px;
+    height: 270px;
+  }
+
+
+  .topnav {
+      font-size: 16px;
+      /*border-bottom: 1px outset rgba(192, 192, 192, 0.5);*/
+
+      /*box-shadow: 0px 1px rgba(0, 0, 0, 0.3);*/
+
+  }
+  .topnav ul.navbar-nav li a {
+  background:transparent;
+  font-family: 'Montserrat' , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #333138;
+
+  }
+
+  .me1rec{
+    position: absolute;
+    left: -24px;
+    top: -20px;
+    z-index: -2;
+  }
+
+  .me2rec{
+    position: absolute;
+    left: -24px;
+    top: -32px;
+    z-index: -2;
+  }
+
+
+
+  img.hobbies{
+    position: relative;
+    top: -36px;
+    left: -12px;
+    height: 346px;
+    width: 400px;
+  }
+
+  .photosrow{
+    position: relative;
+  }
+
+  .photosrec{
+    position: absolute;
+    left: -40px;
+    top: -32px;
+    z-index: -2;
+    height: 560px;
+    width: 1000px;
+  }
+
+
+
+  .about-rows3{
+    margin: 80px 0px;
+  }
+
+  .about-rows4{
+    margin-bottom: 140px;
+  }
+
+  .photos{
+  border-bottom: 0.5px solid rgba(5,4,1,0.3);
+  }
+
+  .carousel-indicators li{
+    background-color: #999999;
+  }
+
+  .carousel-indicators li.active{
+    background-color: #050401;
+
+  }
+
+  .carousel-indicators{
+    top: 332px;
+  }
+
+  .mycarouselouter{
+    height: 380px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
+    border-radius: 4px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+
+  .companylogo{
+    float: left;
+    margin-left: 152px;
+    margin-bottom: 28px;
+  }
+
+  .myexpheading{
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 28px;
+  }
+
+  .myexpheader{
+    margin-top: 48px;
+  }
+
+  .myexpheading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 20px;
+    color: #333138;
+    opacity: 1;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  .myexpheading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 16px;
+    color: #7D7C84;
+    margin-top: 8px;
+  }
+
+  p.myexpcontent{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 14px;
+    line-height: 32px;
+    color: #333138;
+    padding: 0px 40px;
+    margin: 0px;
+  }
+
+  .mysectionheading{
+    padding-bottom: 0px;
+  }
+
+  .mysectionheading h1{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  font-size: 28px;
+  text-align: center;
+  color: #050401;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  }
+
+  .mysectionheading p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    font-size: 16px;
+    text-align: center;
+    color: #7D7C84;
+    width: 84%;
+    margin: 24px auto 0px;
+  }
+
+  .myexperience{
+    margin: 20px 0px;
+    position: relative;
+  }
+
+  h2.myaboutheader{
+    font-size: 28px;
+    line-height: 48px;
+  }
+
+.myexptext{
+  clear: left;
+}
+
+.about-rows1{
+  margin: 160px 0px 80px;
+
+}
+
+.about-rows2{
+  margin: 80px 0px;
+}
+
+.about-rows4{
+  margin: 0px;
+  margin-bottom: 120px;
+}
+
+.mypics{
+ width: 920px;
+ height: 492px;
+}
+
+img.hobbies2{
+  display: none;
+  width: 640px;
+  height: 180px;
+  position: relative;
+
+}
+
+h2.myaboutheading{
+  font-size: 32px;
+  line-height: 52px;
+}
+
+.mypics2, .photosrec2{
+  display: none;
+}
+
+.contactcontent{
+  margin: 120px 0px 140px;
+}
+
+.contact-hello{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  font-size: 40px;
+  color: #050401;
+  margin: 0px 0px 4px;
+}
+
+.intro-message-contact-page p, .contact-email p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 16px;
+  color: #7D7C84;
+  margin: 12px 0px;
+}
+
+h3.email-contact{
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ line-height: normal;
+ font-size: 16px;
+ color: #333138;
+ margin: 0px;
+}
+
+.contact-email{
+  margin-top: 56px;
+}
+
+.contact-findme{
+  margin-top: 40px;
+}
+
+.findme-links{
+  margin: 24px 0px;
+  position: relative;
+  left: -12px;
+}
+
+.form-group{
+  margin-bottom: 36px;
+  margin-top: 4px;
+}
+
+.form-group label{
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  color: #333138;
+}
+
+.form-group input{
+  height: 40px;
+}
+
+
+.contact-form button{
+  margin-top: 20px;
+}
+
+.contactrow{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+
+
+img.homegreenrec{
+  position: absolute;
+  left: 0px;
+  top:  176px;
+  width: 100px;
+
+}
+
+img.homebluerec{
+  position: absolute;
+  right: 0px;
+  top:  160px;
+  width: 160px;
+}
+
+img.homeyellowrec{
+  position: absolute;
+  left: 144px;
+  top:  460px;
+  width: 90px;
+  height: 80px;
+}
+
+img.contactgreenrec_home{
+  position: absolute;
+  right: 0px;
+  top:  140px;
+  width: 120px;
+}
+
+img.contactbluerec_home{
+  position: absolute;
+  left: 0px;
+  top:  320px;
+  width: 120px;
+}
+
+img.contactyellowrec_home{
+  position: absolute;
+  left: 40px;
+  top:  48px;
+  width: 60px;
+}
+
+img.contactgreenrec_about{
+  position: absolute;
+  right: 0px;
+  top:  140px;
+  width: 120px;
+}
+
+img.contactbluerec_about{
+  position: absolute;
+  left: 0px;
+  top:  320px;
+  width: 120px;
+}
+
+img.contactyellowrec_about{
+  position: absolute;
+  left: 40px;
+  top:  48px;
+  width: 60px;
+}
+
+img.expgreenrec{
+  position: absolute;
+  left: 24px;
+  top:  120px;
+  width: 80px;
+}
+
+img.expbluerec{
+  position: absolute;
+  left: 0px;
+  top:  580px;
+  width: 120px;
+}
+
+img.exporangerec{
+  position: absolute;
+  right: 0px;
+  top:  160px;
+  width: 180px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+  .mynavbarbrand img{
+    width: 224px;
+    height: 54.4px;
+  }
+
+  .mynavbarheader{
+    padding-top: 0px;
+  }
+
+  .container{
+    width: 720px;
+  }
+
+  .navbar-default{
+    background-color: rgba(255,255,255,0.95);
+  }
+
+  .mynavbar{
+  height: 80px;
+  margin-bottom: 0px;
+  border-bottom: 0.5px solid rgba(5,4,1,0.3);
+
+  }
+
+  .mycontainer{
+    height: 80px;
+    padding: 0px;
+  }
+
+  .mynavbarheader{
+    height: 80px;
+  }
+
+  .mynavbarbrand{
+    height: 80px;
+    padding: 12px 0px 0px;
+  }
+
+  .mynavlinks{
+    height: 80px;
+    padding: 16px 0px;
+  }
+
+
+
+  .container{
+    padding: 0px;
+  }
+
+  .work-rows{
+    margin: 60px 0px;
+  }
+
+  .intro-message{
+    padding: 10% 0%;
+  }
+
+  .intro-message h1{
+    margin-bottom: 24px;
+    text-shadow: none;
+    font-size: 48;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: #050401;
+  }
+
+  .intro-message p{
+    font-size: 16px;
+    line-height: 36px;
+    font-family: 'Open Sans', sans-serif;
+    width: 560px;
+    font-weight: 400;
+    margin: auto;
+    margin-bottom: 48px;
+    color: #7D7C84;
+  }
+
+  .myshortcta{
+    width: 176px;
+    height: 48px;
+    background-color: #FF7D49;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  .mylongcta{
+    width: 272px;
+    height: 48px;
+    background-color: #FF7D49;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    border: none;
+    color: #FFFFFF;
+  }
+
+  .myshortcta:hover{
+    background-color: #FF9266;
+    color: #FFFFFF;
+  }
+
+  .mylongcta:hover{
+    background-color: #FF9266;
+    color: #FFFFFF;
+  }
+
+
+  .work-image{
+    border-radius: 4px;
+  }
+
+  h2.section-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  font-size: 24px;
+  color: #050401;
+  opacity: 1;
+  margin-top: 56px;
+  margin-bottom: 0px;
+  }
+
+  .work-para {
+
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: left;
+  line-height: 32px;
+  color: #7D7C84;
+  width: 100%;
+  margin-bottom: 24px;
+  margin-top: 12px;
+  }
+
+  /*.container{
+    width: 1136px;
+  }*/
+
+
+
+  .myworktext h2{
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+
+  #hiddenworkrows{
+    display: none;
+  }
+
+  /*.workrowsalt .myworktext{
+  margin-left: -380px;
+  }
+
+  .workrowsalt .myworkimg{
+    padding-left: 380px;
+  }
+
+  .hiddenworkrows .workrowsalt .myworktext{
+  margin-left: -380px;
+  }
+
+  .hiddenworkrows .workrowsalt .myworkimg{
+    padding-left: 380px;
+  }*/
+
+  .intro-message-contact {
+  position: relative;
+  padding-bottom: 36px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  font-size: 24px;
+  text-align: center;
+  color: #050401;
+  }
+
+  .mycontent{
+    border-bottom: 0.5px solid rgba(5,4,1,0.3);
+  }
+
+  .intro-header-contact {
+  padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 80px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 47px;
+  font-size: 24px;
+  color: #050401;
+  }
+
+  .mycontactmessage p{
+    margin-bottom: 36px;
+  }
+
+  .extlink{
+    padding: 0px 12px;
+  }
+
+  .myviewmore{
+    margin: auto;
+    margin-bottom: 60px;
+    padding: 0px 38%;
+
+  }
+
+  .viewmore{
+    padding: 0px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 180px;
+    height: 48px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #333138;
+    box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
+
+  }
+
+  .viewmore:hover{
+     box-shadow: 0px 8px 24px rgba(5, 4, 1, 0.06);
+  }
+
+  .myshortcta, .mylongcta:focus{
+  outline: none;
+  }
+  .myshortcta, .mylongcta:active{
+  outline: none;
+  }
+
+  .scrollindicator{
+    position: absolute;
+    left: 47.5%;
+    top: 436px;
+  }
+
+  .intro-header {
+      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 50px;
+      text-align: center;
+      border-bottom: 0.5px solid rgba(5,4,1,0.3);
+      background-size: cover;
+      height: 640px;
+
+  }
+
+  .myworkimg img{
+    width: 480px;
+    height: 360px;
+  }
+
+  .myworktext{
+    margin-top: 20px;
+  }
+
+
+  .topnav {
+      font-size: 16px;
+      /*border-bottom: 1px outset rgba(192, 192, 192, 0.5);*/
+
+      /*box-shadow: 0px 1px rgba(0, 0, 0, 0.3);*/
+
+  }
+  .topnav ul.navbar-nav li a {
+  background:transparent;
+  font-family: 'Montserrat' , sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #333138;
+
+  }
+
+  .me1rec{
+    position: absolute;
+    left: -24px;
+    top: -20px;
+    z-index: -2;
+  }
+
+  .me2rec{
+    position: absolute;
+    left: -24px;
+    top: -32px;
+    z-index: -2;
+  }
+
+
+
+  img.hobbies{
+    display: none;
+
+  }
+
+  img.hobbies2{
+    display: block;
+    width: 640px;
+    height: 180px;
+    position: relative;
+    left: -80px;
+  }
+
+  .photosrow{
+    position: relative;
+  }
+
+  .photosrec{
+    position: absolute;
+    left: -40px;
+    top: -20px;
+    z-index: -2;
+    height: 440px;
+    width: 760px;
+  }
+
+
+  .about-rows3{
+    margin: 40px 0px;
+  }
+
+  .about-rows4{
+    margin-bottom: 140px;
+  }
+
+  .photos{
+  border-bottom: 0.5px solid rgba(5,4,1,0.3);
+  }
+
+  .carousel-indicators li{
+    background-color: #999999;
+  }
+
+  .carousel-indicators li.active{
+    background-color: #050401;
+
+  }
+
+  .carousel-indicators{
+    top: 344px;
+  }
+
+  .mycarouselouter{
+    height: 400px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .companylogo{
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 20px;
+  }
+
+  .myexpheading{
+    float: left;
+    margin-left: 40px;
+    margin-bottom: 20px;
+  }
+
+  .myexpheader{
+    margin-top: 36px;
+  }
+
+  .myexpheading h1{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    font-size: 16px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    color: #333138;
+  }
+
+  .myexpheading h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 8px;
+    color: #7D7C84;
+  }
+
+  p.myexpcontent{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-size: 14px;
+    line-height: 32px;
+    padding: 0px 32px;
+    margin: 0px;
+    color: #333138;
+  }
+
+  .mysectionheading{
+    padding-bottom: 0px;
+  }
+
+  .mysectionheading h1{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px;
+  font-size: 28px;
+  text-align: center;
+  color: #050401;
+  margin-bottom: 0px;
+  margin-top: 20px;
+  }
+
+  .mysectionheading p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+    color: #7D7C84;
+    margin: 20px auto 0px;
+    width: 100%;
+  }
+
+  .myexperience{
+    margin: 20px 0px;
+  }
+
+  h2.myaboutheader{
+    font-size: 28px;
+    line-height: 48px;
+    margin-top: 0px;
+  }
+
+.myexptext{
+  clear: left;
+}
+
+.about-rows1{
+  margin: 160px 0px 40px;
+
+}
+
+.about-rows2{
+  margin: 40px 0px 60px;
+}
+
+.about-rows4{
+  margin: 0px;
+  margin-bottom: 100px;
+}
+
+.mypics{
+ width: 720px;
+ height: 385px;
+}
+
+.myaboutpara2{
+  margin-top: 0px;
+}
+
+.myabtrow2txt{
+  position: relative;
+  top: 400px;
+}
+
+.myabtrow2pic{
+  position: relative;
+  top: -360px;
+  left: 40px;
+}
+
+.mypics2, .photosrec2{
+  display: none;
+}
+
+h2.myaboutheading{
+  margin-top: 36px;
+}
+
+.contactcontent{
+  margin: 120px 0px 140px;
+}
+
+.contact-hello{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+  font-size: 40px;
+  color: #050401;
+  margin: 0px 0px 4px;
+}
+
+.intro-message-contact-page p, .contact-email p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 16px;
+  color: #7D7C84;
+  margin: 12px 0px;
+}
+
+h3.email-contact{
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ line-height: normal;
+ font-size: 16px;
+ color: #333138;
+ margin: 0px;
+}
+
+.contact-email{
+  margin-top: 32px;
+}
+
+.contact-findme{
+  margin-top: 32px;
+  margin-bottom: 64px;
+}
+
+.findme-links{
+  margin: 24px 0px;
+  position: relative;
+  left: -12px;
+}
+
+.form-group{
+  margin-bottom: 40px;
+  margin-top: 4px;
+}
+
+.form-group label{
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  color: #333138;
+}
+
+.form-group input{
+  height: 40px;
+}
+
+
+.contact-form button{
+  margin-top: 20px;
+}
+
+img.homegreenrec{
+  position: absolute;
+  left: 0px;
+  top:  360px;
+  width: 100px;
+
+}
+
+img.homebluerec{
+  position: absolute;
+  right: 0px;
+  top:  300px;
+  width: 140px;
+}
+
+img.homeyellowrec{
+  position: absolute;
+  left: 144px;
+  top:  520px;
+  width: 90px;
+  height: 80px;
+}
+
+img.contactgreenrec_home{
+  display: none;
+}
+
+img.contactbluerec_home{
+    display: none;
+}
+
+img.contactyellowrec_home{
+    display: none;
+}
+
+img.contactgreenrec_about{
+    display: none;
+}
+
+img.contactbluerec_about{
+    display: none;
+}
+
+img.contactyellowrec_about{
+    display: none;
+}
+
+img.expgreenrec{
+  display: none;
+}
+
+img.expbluerec{
+  display: none;
+}
+
+img.exporangerec{
+  display: none;
+}
+
+
+
+}
+
+  @media (min-width: 0px) and (max-width: 767px){
+
+    .container>.navbar-header{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    button.navbar-toggle{
+      margin-right: 0px;
+      margin-top: 12px;
+      margin-bottom: 12px;
+      padding: 8px 10px;
+    }
+
+    .mynavbarbrand img{
+      width: 224px;
+      height: 54.4px;
+    }
+
+    .mynavbarheader{
+      padding-top: 0px;
+
+    }
+
+    .container{
+      width: 328px;
+    }
+
+    .navbar-default{
+      border: none;
+    }
+
+    .mynavbar{
+    height: 56px;
+    margin-bottom: 0px;
+    border-bottom: 0.5px solid rgba(5,4,1,0.3);
+
+    }
+
+    .mycontainer{
+      height: 56px;
+      padding: 0px;
+    }
+
+    .mynavbarheader{
+      height: 56px;
+    }
+
+    .mynavbarbrand{
+      height: 56px;
+      padding: 2px 0px;
+    }
+
+    .mynavlinks{
+
+      padding: 0px;
+    }
+
+    .container{
+      padding: 0px;
+    }
+
+    .work-rows{
+      margin: 56px 0px;
+    }
+
+    .row{
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .intro-message{
+      padding: 36px 0px;
+    }
+
+    .intro-message h1{
+      margin-bottom: 20px;
+      text-shadow: none;
+      font-size: 32;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 800;
+      width: 328px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 48px;
+      margin-top: 16px;
+    }
+
+    .intro-message p{
+      font-size: 14px;
+      line-height: 32px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      margin: auto;
+      margin-bottom: 56px;
+      width: 320px;
+      color: #7D7C84;
+
+    }
+
+    .myshortcta{
+      width: 176px;
+      height: 48px;
+      background-color: #FF7D49;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      border: none;
+      color: #FFFFFF;
+    }
+
+    .mylongcta{
+      width: 272px;
+      height: 48px;
+      background-color: #FF7D49;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      border: none;
+      color: #FFFFFF;
+    }
+
+    .myshortcta:hover{
+      background-color: #FF9266;
+      color: #FFFFFF;
+    }
+
+    .mylongcta:hover{
+      background-color: #FF9266;
+      color: #FFFFFF;
+    }
+
+
+    .work-image{
+      border-radius: 4px;
+    }
+
+
+
+    h2.section-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    font-size: 20px;
+    color: #050401;
+    opacity: 1;
+    margin-top: 4px;
+    }
+
+    .work-para {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: left;
+    line-height: 28px;
+    color: #333138;
+    opacity: 1;
+    width: 100%;
+    margin-bottom: 24px;
+    margin-top: 12px;
+    }
+
+    /*.container{
+      width: 1136px;
+    }*/
+
+
+
+    .myworktext h2{
+      margin-bottom: 0px;
+      margin-top: 0px;
+    }
+
+    #hiddenworkrows{
+      display: none;
+    }
+
+    /*.workrowsalt .myworktext{
+    margin-left: -380px;
+    }
+
+    .workrowsalt .myworkimg{
+      padding-left: 380px;
+    }
+
+    .hiddenworkrows .workrowsalt .myworktext{
+    margin-left: -380px;
+    }
+
+    .hiddenworkrows .workrowsalt .myworkimg{
+      padding-left: 380px;
+    }*/
+
+    .intro-message-contact {
+    position: relative;
+    padding-bottom: 36px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 36px;
+    font-size: 20px;
+    text-align: center;
+    color: #050401;
+
+
+    }
+
+    .mycontent{
+      border-bottom: 0.5px solid rgba(5,4,1,0.3);
+    }
+
+
+
+    .intro-header-contact {
+    padding-top: 56px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 56px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 47px;
+    font-size: 24px;
+    color: #050401;
+    }
+
+    .mycontactmessage p{
+      margin-bottom: 36px;
+    }
+
+    .extlink{
+      padding: 0px 12px;
+    }
+
+    .myviewmore{
+      margin: auto;
+      margin-bottom: 56px;
+      padding: 0px 23.5%;
+
+    }
+
+    .viewmore{
+
+      padding: 0px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      width: 180px;
+      height: 48px;
+      background-color: #FFFFFF;
+      border: none;
+      color: #333138;
+      box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
+
+    }
+
+    .viewmore:hover{
+       box-shadow: 0px 8px 24px rgba(5, 4, 1, 0.06);
+    }
+
+    .myshortcta, .mylongcta:focus{
+    outline: none;
+    }
+    .myshortcta, .mylongcta:active{
+    outline: none;
+    }
+
+    .scrollindicator{
+      position: absolute;
+      left: 44.5%;
+      top: 480px;
+    }
+
+    .intro-header {
+        padding-top: 56px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+        padding-bottom: 56px;
+        text-align: center;
+        border-bottom: 0.5px solid rgba(5,4,1,0.5);
+        background-size: cover;
+        height: 720px;
+
+    }
+
+    .myworkimg img{
+      width: 328px;
+      height: 247px;
+
+    }
+
+    .myworktext{
+      margin-top: 20px;
+
+    }
+
+
+    .topnav {
+        font-size: 16px;
+        /*border-bottom: 1px outset rgba(192, 192, 192, 0.5);*/
+
+        /*box-shadow: 0px 1px rgba(0, 0, 0, 0.3);*/
+
+    }
+    .topnav ul.navbar-nav li a {
+    background:transparent;
+    font-family: 'Montserrat' , sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 16px;
+    text-align: center;
+    padding: 30px 0px;
+    color: #050401;
+    height: 80px;
+
+
+}
+
+.navbar-default{
+  background-color: rgba(255,255,255,0.95);
+}
+
+ul.mynavlinks{
+  margin: 0px;
+  height: 100vh;
+}
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 1200px;
+    margin-left: -220px;
+    margin-right: -220px;
+    border: none;
+  }
+
+.navbar-collapse{
+  padding: 0px;
+  max-height: 1200px;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+
+ul.mynavlinks li{
+  padding: 0px;
+  height: 80px;
+
+  border-bottom: 0.5px solid rgba(5,4,1,0.5);
+}
+
+.me1rec{
+  position: absolute;
+  left: -20px;
+  top: -16px;
+  z-index: -2;
+  width: 360px;
+  height: 264px;
+}
+
+.me2rec{
+  position: absolute;
+  left: 8px;
+  top: -28px;
+  z-index: -2;
+  width: 308px;
+  height: 336px;
+}
+
+
+
+img.hobbies{
+  width: 328px;
+  height: 304px;
+
+}
+
+img.hobbies2{
+  display: none;
+
+}
+
+.photosrec{
+  display: none;
+}
+
+.about-rows3{
+  margin: 0px;
+}
+
+.about-rows4{
+  margin-bottom: 140px;
+}
+
+.photos{
+border-bottom: 0.5px solid rgba(5,4,1,0.3);
+}
+
+.carousel-indicators li{
+  background-color: #999999;
+}
+
+.carousel-indicators li.active{
+  background-color: #050401;
+
+}
+
+.carousel-indicators{
+  top: 560px;
+}
+
+.mycarouselouter{
+  height: 608px;
+  width: 328px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
+  border-radius: 4px;
+  margin-top: 56px;
+  margin-bottom: 56px;
+
+}
+
+.companylogo{
+  float: left;
+  margin-left: 96px;
+  margin-bottom: 24px;
+}
+
+.myexpheading{
+  float: left;
+  margin-left: 68px;
+  margin-bottom: 20px;
+}
+
+.myexpheader{
+  margin-top: 28px;
+}
+
+.myexpheading h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  line-height: 28px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #333138;
+}
+
+.myexpheading h2{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: center;
+  color: #7D7C84;
+}
+
+p.myexpcontent{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 14px;
+  line-height: 28px;
+  padding: 0px 16px;
+  margin: 0px;
+  color: #333138;
+}
+
+.mysectionheading{
+  padding-bottom: 0px;
+}
+
+.mysectionheading h1{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 800;
+line-height: 48px;
+font-size: 28px;
+text-align: center;
+color: #050401;
+margin-bottom: 0px;
+margin-top: 20px;
+}
+
+.mysectionheading p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 14px;
+  text-align: center;
+  color: #333138;
+  margin: 20px auto 0px;
+}
+
+.myexperience{
+  margin: 0px;
+}
+
+h2.myaboutheader{
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.myexptext{
+clear: left;
+}
+
+.about-rows1{
+margin: 100px 0px 40px;
+
+}
+
+.about-rows2{
+margin: 40px 0px 56px;
+}
+
+.about-rows4{
+margin: 36px 0px 56px;
+
+}
+
+.mypics{
+display: none;
+}
+
+.myaboutpara2{
+margin-top: 0px;
+}
+
+.myabtrow2txt{
+position: relative;
+top: 300px;
+}
+
+.myabtrow2pic{
+position: relative;
+top: -380px;
+}
+
+.me1{
+  width: 328px;
+  height: 228px;
+
+}
+
+.me2{
+  width: 284px;
+  height: 278px;
+  margin-left: 22px;
+}
+
+.myaboutpara1{
+ margin-top: 20px;
+}
+
+.myabouttxt{
+  margin-top: 32px;
+}
+
+.myabouttxt h2{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+}
+
+.myabouttxt2 h1{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  line-height: 32px;
+  font-size: 24px;
+  text-align: left;
+}
+
+.myabouttxt2 p{
+  text-align: left;
+
+}
+
+.photosrow{
+  position: relative;
+}
+
+.photosrec2{
+  position: absolute;
+  left: -8px;
+  z-index: -2;
+  top: -12px;
+  width: 340px;
+  height: 396px
+
+}
+
+.contactcontent{
+  margin: 92px 0px 80px;
+}
+
+.contact-hello{
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 32px;
+  font-size: 28px;
+  color: #050401;
+  margin: 0px 0px 12px;
+}
+
+.intro-message-contact-page p, .contact-email p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  font-size: 14px;
+  color: #333138;
+  margin: 12px 0px;
+}
+
+h3.email-contact{
+ font-family: 'Open Sans', sans-serif;
+ font-style: normal;
+ font-weight: bold;
+ line-height: normal;
+ font-size: 16px;
+ color: #333138
+ margin: 0px;
+}
+
+.contact-email{
+  margin-top: 32px;
+}
+
+.contact-findme{
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.findme-links{
+  margin: 24px 0px;
+  position: relative;
+  left: -12px;
+}
+
+.form-group{
+  margin-bottom: 24px;
+  margin-top: 20px;
+}
+
+.form-group label{
+  margin-bottom: 12px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  font-size: 14px;
+  color: #333138;
+}
+
+.form-group input{
+  height: 40px;
+}
+
+
+.contact-form button{
+  margin-top: 12px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+img.homegreenrec{
+  position: absolute;
+  left: 0px;
+  top:  492px;
+  width: 72px;
+
+}
+
+img.homebluerec{
+  position: absolute;
+  right: 0px;
+  top:  472px;
+  width: 112px;
+}
+
+img.homeyellowrec{
+  position: absolute;
+  left: 80px;
+  top:  640px;
+  width: 72px;
+
+}
+
+img.contactgreenrec_home{
+  display: none;
+}
+
+img.contactbluerec_home{
+    display: none;
+}
+
+img.contactyellowrec_home{
+    display: none;
+}
+
+img.contactgreenrec_about{
+    display: none;
+}
+
+img.contactbluerec_about{
+    display: none;
+}
+
+img.contactyellowrec_about{
+    display: none;
+}
+
+img.expgreenrec{
+  display: none;
+}
+
+img.expbluerec{
+  display: none;
+}
+
+img.exporangerec{
+  display: none;
+}
+
+
+}
