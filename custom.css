@@ -29,7 +29,7 @@ border-bottom: 0.5px solid rgba(5,4,1,0.3);
 
 .mynavbarbrand{
   height: 80px;
-  padding: 6px 0px 4px;
+  padding: 20px 0px 16px;
 }
 
 .mynavlinks{
@@ -56,7 +56,7 @@ border-bottom: 0.5px solid rgba(5,4,1,0.3);
 }
 
 .intro-message{
-  padding: 10% 0%;
+  padding: 10% 0% 6%;
 }
 
 .intro-message h1{
@@ -104,15 +104,14 @@ border-bottom: 0.5px solid rgba(5,4,1,0.3);
 }
 
 .myshortcta:hover{
-  background-color: #FF9266;
+  background-color: rgba(255, 125, 73, 0.95);
   color: #FFFFFF;
 }
 
 .mylongcta:hover{
-  background-color: #FF9266;
+  background-color: rgba(255, 125, 73, 0.95);
   color: #FFFFFF;
 }
-
 
 .work-image{
   border-radius: 4px;
@@ -229,7 +228,7 @@ position: relative;
 .myviewmore{
   margin: auto;
   margin-bottom: 100px;
-  padding: 0px 42.4%;
+  text-align: -webkit-center;
 
 }
 
@@ -259,11 +258,7 @@ outline: none;
 outline: none;
 }
 
-.scrollindicator{
-  position: absolute;
-  left: 48.2%;
-  top: 524px;
-}
+
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -294,10 +289,17 @@ font-weight: 500;
 line-height: normal;
 font-size: 16px;
 text-align: center;
-color: #333138;
+color: #7D7C84;
 opacity: 1;
+padding: 16px 16px;
 
 }
+
+.topnav ul.navbar-nav li a:hover{
+ color: #333138;
+}
+
+
 
 .me1rec{
   position: absolute;
@@ -314,7 +316,7 @@ opacity: 1;
 }
 
 .myaboutpara1{
-  margin-top: 24px;
+  margin-top: 32px;
 
 }
 
@@ -346,79 +348,12 @@ img.hobbies{
 border-bottom: 0.5px solid rgba(5,4,1,0.3);
 }
 
-.carousel-indicators li{
-  background-color: #999999;
+.experiencepic{
+  text-align: -webkit-center;
+  padding: 32px 0px;
 }
 
-.carousel-indicators li.active{
-  background-color: #050401;
 
-}
-
-.carousel-indicators{
-  top: 332px;
-}
-
-.mycarouselouter{
-  height: 380px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
-  border-radius: 4px;
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
-.companylogo{
-  float: left;
-  margin-left: 152px;
-  margin-bottom: 24px;
-}
-
-.myexpheading{
-  float: left;
-  margin-left: 40px;
-  margin-bottom: 24px;
-}
-
-.myexpheader{
-  margin-top: 48px;
-}
-
-.myexpheading h1{
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  font-size: 20px;
-  color: #333138;
-  opacity: 1;
-  margin-bottom: 0px;
-  margin-top: 0px;
-}
-
-.myexpheading h2{
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 16px;
-  margin-top: 8px;
-  color: #7D7C84;
-  opacity: 1;
-}
-
-p.myexpcontent{
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-  font-size: 14px;
-  line-height: 32px;
-  padding: 0px 40px;
-  margin: 0px;
-  color: #333138;
-  opacity: 1;
-}
 
 .mysectionheading{
   padding-bottom: 0px;
@@ -619,6 +554,135 @@ img.exporangerec{
   top:  88px;
 }
 
+
+.storyheaderimage img{
+  width: 100%;
+}
+
+.content img{
+  width: 100%;
+  margin: 40px 0px;
+  border-radius: 4px;
+}
+
+.storyintroheader{
+  padding: 80px 0px 20px;
+  border: none;
+}
+
+img.headermobile{
+  display: none;
+}
+
+.storysection{
+  padding: 80px 0px;
+}
+
+.storyhighlight{
+  background: #f9f9f9;
+}
+
+.imagelarge{
+  margin-top: -60px;
+}
+
+
+
+.imagelarge .content img{
+  margin: 0px;
+}
+
+.content p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  color: #333138;
+  opacity: 1;
+  margin: 24px 0px;
+  text-align: left;
+}
+
+.content h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 64px;
+  font-size: 40px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 32px;
+}
+
+.content h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  font-size: 28px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 24px;
+  margin-top: 60px;
+}
+
+.content h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 24px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 48px;
+}
+
+.content h4{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  font-size: 16px;
+  color: #7D7C84;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+p.highlight{
+  background: #f9f9f9;
+  padding: 20px 20px;
+  margin: 40px 0px;
+  font-style: italic;
+}
+
+.superbosssummary{
+  padding-top: 0px;
+}
+
+.imagelarge2{
+  margin-top: 0px;
+}
+
+.sider p{
+  margin-top: 12px;
+}
+.sider h3{
+  margin-bottom: 0px;
+}
+
+.expmobile{
+  display: none;
+}
+
+
+
 }
 
 
@@ -673,7 +737,7 @@ img.exporangerec{
   }
 
   .intro-message{
-    padding: 10% 0%;
+    padding: 10% 0% 6%;
   }
 
   .intro-message h1{
@@ -721,12 +785,12 @@ img.exporangerec{
   }
 
   .myshortcta:hover{
-    background-color: #FF9266;
+    background-color: rgba(255, 125, 73, 0.95);
     color: #FFFFFF;
   }
 
   .mylongcta:hover{
-    background-color: #FF9266;
+    background-color: rgba(255, 125, 73, 0.95);
     color: #FFFFFF;
   }
 
@@ -760,7 +824,11 @@ img.exporangerec{
   color: #7D7C84;
   width: 100%;
   margin-bottom: 36px;
-  margin-top: 16px;
+  margin-top: 20px;
+  }
+
+  img.me1{
+    width: 100%;
   }
 
 .myaboutpara2{
@@ -841,7 +909,7 @@ img.exporangerec{
   .myviewmore{
     margin: auto;
     margin-bottom: 80px;
-    padding: 0px 38%;
+    text-align: -webkit-center;
 
   }
 
@@ -872,11 +940,7 @@ img.exporangerec{
   outline: none;
   }
 
-  .scrollindicator{
-    position: absolute;
-    left: 48.2%;
-    top: 460px;
-  }
+
 
   .intro-header {
       padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -909,8 +973,11 @@ img.exporangerec{
   line-height: normal;
   font-size: 16px;
   text-align: center;
-  color: #333138;
+  color: #7D7C84;
+  }
 
+  .topnav ul.navbar-nav li a:hover{
+   color: #333138;
   }
 
   .me1rec{
@@ -964,76 +1031,9 @@ img.exporangerec{
   border-bottom: 0.5px solid rgba(5,4,1,0.3);
   }
 
-  .carousel-indicators li{
-    background-color: #999999;
-  }
-
-  .carousel-indicators li.active{
-    background-color: #050401;
-
-  }
-
-  .carousel-indicators{
-    top: 332px;
-  }
-
-  .mycarouselouter{
-    height: 380px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
-    border-radius: 4px;
-    margin-top: 80px;
-    margin-bottom: 80px;
-  }
-
-  .companylogo{
-    float: left;
-    margin-left: 152px;
-    margin-bottom: 28px;
-  }
-
-  .myexpheading{
-    float: left;
-    margin-left: 40px;
-    margin-bottom: 28px;
-  }
-
-  .myexpheader{
-    margin-top: 48px;
-  }
-
-  .myexpheading h1{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    font-size: 20px;
-    color: #333138;
-    opacity: 1;
-    margin-bottom: 0px;
-    margin-top: 0px;
-  }
-
-  .myexpheading h2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-size: 16px;
-    color: #7D7C84;
-    margin-top: 8px;
-  }
-
-  p.myexpcontent{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 14px;
-    line-height: 32px;
-    color: #333138;
-    padding: 0px 40px;
-    margin: 0px;
+  .experiencepic{
+    text-align: -webkit-center;
+    padding: 32px 0px;
   }
 
   .mysectionheading{
@@ -1261,14 +1261,14 @@ img.contactyellowrec_about{
 img.expgreenrec{
   position: absolute;
   left: 24px;
-  top:  120px;
+  top:  140px;
   width: 80px;
 }
 
 img.expbluerec{
   position: absolute;
   left: 0px;
-  top:  580px;
+  top:  500px;
   width: 120px;
 }
 
@@ -1279,13 +1279,143 @@ img.exporangerec{
   width: 180px;
 }
 
+.storyheaderimage img{
+  width: 100%;
+}
+
+.content img{
+  width: 100%;
+  margin: 40px 0px;
+  border-radius: 4px;
+}
+
+.storyintroheader{
+  padding: 80px 0px 20px;
+  border: none;
+}
+
+img.headermobile{
+  display: none;
+}
+
+.storysection{
+  padding: 60px 0px;
+}
+
+.storyhighlight{
+  background: #f9f9f9;
+}
+
+.imagelarge{
+  margin-top: -60px;
+}
+
+.imagelarge .content img{
+  margin: 0px;
+}
+
+.content p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  color: #333138;
+  opacity: 1;
+  margin: 16px 0px;
+  text-align: left;
+}
+
+.content h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  font-size: 32px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.content h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  font-size: 24px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+
+.content h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 20px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 40px;
+}
+
+.content h4{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 52px;
+  font-size: 16px;
+  color: #7D7C84;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+p.highlight{
+  background: #f9f9f9;
+  padding: 20px 20px;
+  margin: 40px 0px;
+  font-style: italic;
+}
+
+.otomatesummary{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.superbosssummary{
+  padding-top: 0px;
+}
+
+.imagelarge2{
+  margin-top: 0px;
+}
+
+.sider p{
+  margin-top: 12px;
+}
+.sider h3{
+  margin-bottom: 0px;
+}
+
+.expmobile{
+  display: none;
+}
+
+
 }
 
 @media (min-width: 768px) and (max-width: 991px){
 
   .mynavbarbrand img{
-    width: 224px;
-    height: 54.4px;
+    width: 220px;
+    height: 33.76px;
   }
 
   .mynavbarheader{
@@ -1318,7 +1448,7 @@ img.exporangerec{
 
   .mynavbarbrand{
     height: 80px;
-    padding: 12px 0px 0px;
+    padding: 22px 0px;
   }
 
   .mynavlinks{
@@ -1337,7 +1467,7 @@ img.exporangerec{
   }
 
   .intro-message{
-    padding: 10% 0%;
+    padding: 10% 0% 8%;
   }
 
   .intro-message h1{
@@ -1385,15 +1515,14 @@ img.exporangerec{
   }
 
   .myshortcta:hover{
-    background-color: #FF9266;
+    background-color: rgba(255, 125, 73, 0.95);
     color: #FFFFFF;
   }
 
   .mylongcta:hover{
-    background-color: #FF9266;
+    background-color: rgba(255, 125, 73, 0.95);
     color: #FFFFFF;
   }
-
 
   .work-image{
     border-radius: 4px;
@@ -1462,7 +1591,7 @@ img.exporangerec{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 36px;
+  line-height: 48px;
   font-size: 24px;
   text-align: center;
   color: #050401;
@@ -1495,8 +1624,7 @@ img.exporangerec{
   .myviewmore{
     margin: auto;
     margin-bottom: 60px;
-    padding: 0px 38%;
-
+    text-align: -webkit-center;
   }
 
   .viewmore{
@@ -1525,11 +1653,6 @@ img.exporangerec{
   outline: none;
   }
 
-  .scrollindicator{
-    position: absolute;
-    left: 47.5%;
-    top: 436px;
-  }
 
   .intro-header {
       padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -1566,8 +1689,11 @@ img.exporangerec{
   line-height: normal;
   font-size: 14px;
   text-align: center;
-  color: #333138;
+  color: #7D7C84;
+}
 
+  .topnav ul.navbar-nav li a:hover{
+   color: #333138;
   }
 
   .me1rec{
@@ -1625,75 +1751,9 @@ img.exporangerec{
   border-bottom: 0.5px solid rgba(5,4,1,0.3);
   }
 
-  .carousel-indicators li{
-    background-color: #999999;
-  }
-
-  .carousel-indicators li.active{
-    background-color: #050401;
-
-  }
-
-  .carousel-indicators{
-    top: 344px;
-  }
-
-  .mycarouselouter{
-    height: 400px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
-    border-radius: 4px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-  }
-
-  .companylogo{
-    float: left;
-    margin-left: 100px;
-    margin-bottom: 20px;
-  }
-
-  .myexpheading{
-    float: left;
-    margin-left: 40px;
-    margin-bottom: 20px;
-  }
-
-  .myexpheader{
-    margin-top: 36px;
-  }
-
-  .myexpheading h1{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    font-size: 16px;
-    margin-bottom: 8px;
-    margin-top: 4px;
-    color: #333138;
-  }
-
-  .myexpheading h2{
-    font-family: 'Montserrat', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    font-size: 14px;
-    margin-top: 8px;
-    color: #7D7C84;
-  }
-
-  p.myexpcontent{
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    font-size: 14px;
-    line-height: 32px;
-    padding: 0px 32px;
-    margin: 0px;
-    color: #333138;
+  .experiencepic{
+    text-align: -webkit-center;
+    padding: 24px 0px;
   }
 
   .mysectionheading{
@@ -1763,12 +1823,12 @@ img.exporangerec{
 
 .myabtrow2txt{
   position: relative;
-  top: 400px;
+  top: 408px;
 }
 
 .myabtrow2pic{
   position: relative;
-  top: -360px;
+  top: -380px;
   left: 40px;
 }
 
@@ -1912,7 +1972,127 @@ img.exporangerec{
   display: none;
 }
 
+.storyheaderimage img{
+  width: 100%;
+}
 
+.content img{
+  width: 100%;
+  margin: 40px 0px;
+  border-radius: 4px;
+}
+
+.storyintroheader{
+  padding: 80px 0px 20px;
+  border: none;
+}
+
+img.headermobile{
+  display: none;
+}
+
+.storysection{
+  padding: 40px 0px;
+}
+
+.storyhighlight{
+  background: #f9f9f9;
+}
+
+.imagelarge{
+  margin-top: -40px;
+}
+
+.imagelarge .content img{
+  margin: 0px;
+}
+
+.content p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  color: #333138;
+  opacity: 1;
+  margin: 16px 0px;
+  text-align: left;
+}
+
+.content h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 56px;
+  font-size: 32px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.content h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 52px;
+  font-size: 24px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 16px;
+  margin-top: 40px;
+}
+
+.content h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  font-size: 20px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 36px;
+}
+
+.content h4{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 52px;
+  font-size: 16px;
+  color: #7D7C84;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: -20px;
+}
+
+p.highlight{
+  background: #f9f9f9;
+  padding: 20px 20px;
+  margin: 40px 0px;
+  font-style: italic;
+}
+
+.otomatesummary{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.superbosssummary{
+  padding-top: 0px;
+}
+
+.imagelarge2{
+  margin-top: 0px;
+}
+
+.expmobile{
+  display: none;
+}
 
 }
 
@@ -1931,8 +2111,8 @@ img.exporangerec{
     }
 
     .mynavbarbrand img{
-      width: 224px;
-      height: 54.4px;
+      width: 220px;
+      height: 33.75px;
     }
 
     .mynavbarheader{
@@ -1966,7 +2146,7 @@ img.exporangerec{
 
     .mynavbarbrand{
       height: 56px;
-      padding: 2px 0px;
+      padding: 12px 0px;
     }
 
     .mynavlinks{
@@ -1989,6 +2169,10 @@ img.exporangerec{
 
     .intro-message{
       padding: 36px 0px;
+    }
+
+    .scrollindicator{
+      margin-top: 20px;
     }
 
     .intro-message h1{
@@ -2040,15 +2224,7 @@ img.exporangerec{
       color: #FFFFFF;
     }
 
-    .myshortcta:hover{
-      background-color: #FF9266;
-      color: #FFFFFF;
-    }
 
-    .mylongcta:hover{
-      background-color: #FF9266;
-      color: #FFFFFF;
-    }
 
 
     .work-image{
@@ -2156,7 +2332,7 @@ img.exporangerec{
     .myviewmore{
       margin: auto;
       margin-bottom: 56px;
-      padding: 0px 23.5%;
+        text-align: -webkit-center;
 
     }
 
@@ -2187,11 +2363,7 @@ img.exporangerec{
     outline: none;
     }
 
-    .scrollindicator{
-      position: absolute;
-      left: 44.5%;
-      top: 480px;
-    }
+
 
     .intro-header {
         padding-top: 56px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -2217,9 +2389,6 @@ img.exporangerec{
 
     .topnav {
         font-size: 16px;
-        /*border-bottom: 1px outset rgba(192, 192, 192, 0.5);*/
-
-        /*box-shadow: 0px 1px rgba(0, 0, 0, 0.3);*/
 
     }
     .topnav ul.navbar-nav li a {
@@ -2231,10 +2400,8 @@ img.exporangerec{
     font-size: 16px;
     text-align: center;
     padding: 30px 0px;
-    color: #050401;
+    color: #333138;
     height: 80px;
-
-
 }
 
 .navbar-default{
@@ -2315,78 +2482,14 @@ img.hobbies2{
 border-bottom: 0.5px solid rgba(5,4,1,0.3);
 }
 
-.carousel-indicators li{
-  background-color: #999999;
+.experiencepic{
+  text-align: -webkit-center;
+  padding: 16px 0px 40px;
 }
 
-.carousel-indicators li.active{
-  background-color: #050401;
-
-}
-
-.carousel-indicators{
-  top: 560px;
-}
-
-.mycarouselouter{
-  height: 608px;
+.experiencepic img{
   width: 328px;
-  background: #FFFFFF;
-  box-shadow: 0px 4px 60px rgba(5, 4, 1, 0.05);
-  border-radius: 4px;
-  margin-top: 56px;
-  margin-bottom: 56px;
 
-}
-
-.companylogo{
-  float: left;
-  margin-left: 96px;
-  margin-bottom: 24px;
-}
-
-.myexpheading{
-  float: left;
-  margin-left: 68px;
-  margin-bottom: 20px;
-}
-
-.myexpheader{
-  margin-top: 28px;
-}
-
-.myexpheading h1{
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  line-height: 28px;
-  font-size: 16px;
-  text-align: center;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  color: #333138;
-}
-
-.myexpheading h2{
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  line-height: normal;
-  font-size: 14px;
-  margin-top: 8px;
-  text-align: center;
-  color: #7D7C84;
-}
-
-p.myexpcontent{
-  font-family: 'Open Sans', sans-serif;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 14px;
-  line-height: 28px;
-  padding: 0px 16px;
-  margin: 0px;
-  color: #333138;
 }
 
 .mysectionheading{
@@ -2460,7 +2563,7 @@ top: 300px;
 
 .myabtrow2pic{
 position: relative;
-top: -380px;
+top: -432px;
 }
 
 .me1{
@@ -2510,9 +2613,9 @@ top: -380px;
   position: absolute;
   left: -8px;
   z-index: -2;
-  top: -12px;
+  top: -60px;
   width: 340px;
-  height: 396px
+  height: 480px
 
 }
 
@@ -2652,5 +2755,141 @@ img.exporangerec{
   display: none;
 }
 
+.storyheaderimage img{
+  width: 100%;
+}
+
+img.headernonmobile{
+  display: block;
+}
+
+img.headermobile{
+  display: none;
+}
+
+.content img{
+  width: 100%;
+  margin: 16px 0px;
+  border-radius: 4px;
+}
+
+.storyintroheader{
+  padding: 56px 0px 0px;
+  border: none;
+}
+
+.storysection{
+  padding: 20px 0px;
+}
+
+.storyhighlight{
+  background: #f9f9f9;
+
+}
+
+.imagelarge{
+  margin-top: -28px;
+}
+
+
+.content p{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 14px;
+  color: #333138;
+  opacity: 1;
+  margin: 12px 0px;
+  text-align: left;
+}
+
+.content h1{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 44px;
+  font-size: 24px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 12px;
+}
+
+.content h2{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 36px;
+  font-size: 20px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 20px;
+}
+
+.content h3{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  font-size: 16px;
+  color: #333138;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 12px;
+  margin-top: 16px;
+}
+
+.content h4{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  font-size: 14px;
+  color: #7D7C84;
+  opacity: 1;
+  text-align: left;
+  margin-bottom: 24px;
+  margin-top: 00px;
+}
+
+p.highlight{
+  background: #f9f9f9;
+  padding: 20px 20px;
+  margin: 24px 0px;
+  font-style: italic;
+}
+
+.otomatesummary{
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.content{
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.superbosssummary{
+  padding-top: 0px;
+}
+
+.imagelarge2{
+  margin-top: 0px;
+}
+
+.sider{
+  margin-bottom: 48px;
+}
+
+.expmobile{
+  display: block;
+}
+
+.expnonmobile{
+  display: none;
+}
 
 }

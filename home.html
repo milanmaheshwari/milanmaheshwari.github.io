@@ -1,8 +1,8 @@
 <html>
 
 <head>
-    <title>Milan Maheshwari - Portfolio - Home</title>
-
+    <title>Milan Maheshwari</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,13 +37,13 @@
             <div class="navbar-header mynavbarheader">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 
-                    <span class="sr-only"><img src="./images/logo.png"></span>
+                    <span class="sr-only"><img src="images/logo.svg"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
 
                 </button>
-                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img src="./images/logo.png"></a>
+                <a class="navbar-brand topnav mynavbarbrand" href="home.html"><img src="./images/logo.svg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -77,9 +77,7 @@
           <img src="images/homegreenrec.svg" class="homegreenrec">
           <img src="images/homebluerec.svg" class="homebluerec">
           <img src="images/homeyellowrec.svg" class="homeyellowrec">
-          <div class="scrollindicator">
-            <img src="images/scroll.svg">
-          </div>
+
 
             <div class="row">
                 <div class="col-lg-12">
@@ -92,6 +90,10 @@
                 </div>
             </div>
 
+            <div class="scrollindicator">
+              <img src="images/scroll.svg">
+            </div>
+
         </div>
         <!-- /.container -->
       </div>
@@ -100,8 +102,8 @@
 
  <!-- Page Content -->
 
-	<a name="#work"></a>
-    <div class="content-section-a mycontent" id="mywork">
+	<section id="mywork">
+    <div class="content-section-a mycontent">
       <div class="bg-overlay2">
         <div class="container">
           <div class="row work-rows workrowsalt">
@@ -112,9 +114,8 @@
 
                   <div class="clearfix"></div>
                 <h2 class="section-heading">Cleartrip Internship Project Case Study</h2>
-
-    <p class="work-para">Worked on an internal management tool for the board directors of Cleartrip during my winter internship here.</p>
-    <button type="button" class="myshortcta">Read Case Study</button>
+                <p class="work-para">Worked on an internal management tool for the board directors of Cleartrip during my winter internship here.</p>
+                <button type="button" class="myshortcta">Coming Soon :)</button>
               </div>
           </div>
           <div class="row work-rows">
@@ -127,7 +128,7 @@
                 <h2 class="section-heading">SuperBOSS - Product Design Case Study</h2>
 
     <p class="work-para">A fleet management mobile application that I designed during my summer internship at BlackBuck Logistics.</p>
-    <button type="button" class="myshortcta">Read Case Study</button>
+    <a href="superboss.html"><button type="button" class="myshortcta">Read Case Study</button></a>
               </div>
           </div>
           <div class="row work-rows workrowsalt">
@@ -140,7 +141,7 @@
                 <h2 class="section-heading">How I designed Otomate - Smart Home App</h2>
 
     <p class="work-para">Design process behind the first full-fledged real project that I worked on during my ‘work from home’ internship at Smartify.</p>
-    <button type="button" class="myshortcta">Read Case Study</button>
+    <a href="otomate.html"><button type="button" class="myshortcta">Read Case Study</button></a>
               </div>
           </div>
           <div class="row work-rows">
@@ -153,11 +154,11 @@
                 <h2 class="section-heading">Mutual Funds Landing Page Design Process</h2>
 
     <p class="work-para">Case study that I prepared for the 3-day design sprint excercise that I did for an internship assignment.</p>
-    <button type="button" class="myshortcta">Read Case Study</button>
+    <a href="mutualfunds.html"><button type="button" class="myshortcta">Read Case Study</button></a>
               </div>
           </div>
 
-       <div id="hiddenworkrows">
+  <!--    <div id="hiddenworkrows">
 
           <div class="row work-rows workrowsalt">
               <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 myworkimg col-sm-8 col-sm-offset-2">
@@ -193,11 +194,14 @@
             <button type="button" class="viewmore" onclick="displaymorework()">View more</button>
           </div>
 
+        -->
+
 
         </div>
-        <!-- /.container -->
+
       </div>
      </div>
+   </section>
 
 
 	<a  name="contact"></a>
@@ -272,7 +276,6 @@
     } else {
         x.style.display = 'none';
     }
-
  }
 
  $("a[href^='#']").click(function(e) {
@@ -300,6 +303,7 @@
          $('html, body').show();
      }
  });
+
 
  </script>
 

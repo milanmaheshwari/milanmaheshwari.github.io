@@ -1,0 +1,340 @@
+<html>
+
+<head>
+    <title>Milan Maheshwari</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo.png" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="custom.css">
+
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+    <div w3-include-html="content.html"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav mynavbar" role="navigation">
+        <div class="container topnav mycontainer">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header mynavbarheader">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only"><img src="./images/logo.svg"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand topnav mynavbarbrand" href="home.html"><img src="./images/logo.svg"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right navbar-brand-icons mynavlinks">
+                    <li>
+                        <a href="home.html#mywork">Work</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="resources/Milan_Maheshwari_Resume.pdf" target="_blank">Resume</a>
+                    </li>
+                   <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+
+    <div class="storyintroheader">
+      <div class="bg-overlay">
+
+        <div class="row">
+
+        <div class="col-lg-12 col-md-12 storyheaderimage">
+          <img src="images/otomate/header.jpg" class="headernonmobile">
+          <img src="images/otomate/headermobile.jpg" class="headermobile">
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>Imagine a home where everything can be controlled with one tap on your smartphone. You can change the lighting according to your mood, lock and unlock your doors from anywhere, create a perfect environment for watching your favorite movies, and the list goes on. This indeed seems fascinating and sounds like we are living in a magical world, but all these things already exist in reality. Thanks to the Internet of Things (IoT) which makes the concept of a smart home possible.</p>
+            <p>During the winters of 2017-18, I got a chance to design a smart home application for Smartify that deals with smart home products. This article describes my journey in understanding and implementing the idea of controlling your home with your phone.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Understanding the Product</h1>
+            <h4>Understanding the problem thoroughly is essential to design successful solutions.</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>Before working on this project, I knew very little about the Internet of Things or the smart home. It was necessary to have a good understanding of the technology, how it works, target users, problems with current products, etc. to provide a solution that works towards improving the user experience.</p>
+            <p>Before I went on to the design of the app, I made the following things clear in my mind.</p>
+          </div>
+
+          <div class="content">
+            <h2>Internet of Things</h2>
+            <p>The Internet of Things is an ecosystem of connected physical objects (things) that are accessible through the internet. The IoT is actually a pretty simple concept, it means taking all the things in the world and connecting them to the internet.</p>
+          </div>
+
+          <div class="content">
+            <h2>Smart Home system</h2>
+            <p>A Smart Home system involves the control and automation of lighting, heating (such as thermostats), ventilation, air conditioning (HVAC), and security, as well as home appliances. It allows you to control devices in your home from a mobile/web device anywhere in the world.</p>
+          </div>
+
+          <div class="content">
+            <h2>Smart Homes - how do they work?</h2>
+            <p>The Smart Home system is one step towards the Internet of Things. All the smart devices of a brand are connected to a cloud network. There are various brands which offer their services like Nest, Amazon, LG, Samsung, etc. All of them work almost similarly.</p>
+            <p>Let’s take Amazon as an example. Amazon developed an intelligent personal assistant called Alexa. When a user makes a change to a device setting in the Alexa app, it sends a message called directive to a controller that controls the device. This controller can have multiple devices associated with it and can control them via a device cloud.</p>
+            <p>Let’s say you turned on a light on the Alexa app. It identifies the concerned controller and sends a directive. Then the controller reads the directive, identifies the light in its cloud and turns it on.</p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>The Problem</h1>
+            <h4>Defining what we seeked to solve.</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>As there are a lot of smart home brands out there, a user may have smart devices of many different brands. But they couldn’t always connect or communicate with each other. The controller for a Nest thermostat won’t read the directive sent by the Alexa app. Thus a user will have to install a bunch of apps for each brand of devices. The abundance of smart home apps that don’t work together leads to a bad user experience.</p>
+            <img src="images/otomate/brands.jpeg">
+            <p>Suppose you have five smart devices in your home each of which comes from a different brand. Each time you want to control a device, you’ll have to open a new app. That is obviously a frustrating thing to do and the problem increases with more number of brands.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>The Solution</h1>
+            <h4>A single app to control all devices.</h4>
+          </div>
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <p>As many people who were using the company’s products were facing this problem, our product team came up with the solution of building a single app which could control all the devices.</p>
+            <p>This is where the use of developer APIs comes into the picture. APIs or Application Programming Interfaces, in the most general sense, are the lines of code that allow various software components to talk to one another to allow various tasks or actions to happen. Numerous companies now offer APIs to developers for their smart home products. Using these APIs, our developers could build a third party service which would interact with all the devices of various brands.</p>
+            <p>Thus we could make a single application for our users which would control all their smart devices.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>User Demand</h2>
+            <p>I went through the user reviews of the existing apps to know the actual problems the people were facing. Though the apps solved the basic need of controlling devices by a smartphone/computer, there were significant complaints regarding the user interface and interaction elements.</p>
+            <img src="images/otomate/userdemand.png">
+            <p>After reading the reviews and through a discussion with the product manager, I found that we need to design an app which makes it really easy to control the smart devices. It should be a bit playful with a smooth overall user experience.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Designing the App</h1>
+            <h4>Putting hands to work.</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>User Flow</h2>
+            <p>Below is the user flow of the entire app. The purple sections represent the main navigation of the app.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/userflow.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Wireframes</h2>
+            <p>These are the initial sketches that I prepared before designing high fidelity interfaces. Paper and pen is a convenient way to put your ideas together and analyze different solutions.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/wireframes.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Onboarding</h2>
+            <p>Being the first interaction of the app with the user, the on-boarding process is a very important part of the design. It gives the overall look and feel and guides the user through the app’s features.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/onboarding.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>My Home</h2>
+            <p>My Home contains all the smart device controls in your home. The devices are divided into a room-wise and device-type hierarchy. This is useful when a user has many devices and he has to find a particular device. For less number of devices, he can always go to the All Devices section.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/myhome.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Automation</h2>
+            <p>While we can control the devices using a smartphone, there is something more which smart homes can do. A device or a group of devices can be programmed to a specified setting which can be triggered to give personalized environments, workflows or schedules.</p>
+            <p class="highlight">"Automation is the technique of making an apparatus, a process, or a system operate automatically."</p>
+
+            <h3>Scenes</h3>
+            <p>Scenes let you create personalized environments according to your mood. A scene can be triggered with a touch on the Activate button. Scenes are basically third-party settings in our app so they can’t be edited.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/scenes.gif">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h3>Schedules</h3>
+            <p>Schedules are used to change the devices’ settings for a duration of time. These can be used to create routine scenes for the user. One advantage of schedules is that they aren’t third-party settings, so we can easily edit a schedule and create new schedules according to our need.</p>
+            <p>A schedule has two things:</p>
+            <p><b>Devices</b> - Add devices and change their attributes according to schedule.</p>
+            <p><b>Timing</b> - Set the duration and repeat options.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/schedules.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Favorites</h2>
+            <p>The favorites section is a dashboard of frequently used devices for quick access to their settings. On touching a particular device, a bottom slider comes up with the device controls.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/favs.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Notification and Settings</h2>
+            <p>Notifications can pop up on any screen. They are displayed date-wise on a separate Notification screen. The Settings screen contains options for adding new devices, syncing, additional information, help, etc.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/otomate/notset.jpeg">
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Summing Up</h1>
+            <h4>Learning and takeaways</h4>
+          </div>
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <p>As many people who were using the company’s products were facing this problem, our product team came up with the solution of building a single app which could control all the devices.</p>
+          </div>
+        </div>
+
+        <a href="mutualfunds.html">
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight nextstory">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h4>Next Story</h4>
+            <h1>Mutual Funds Landing Page Design</h1>
+          </div>
+        </div>
+      </a/>
+
+
+      </div>
+
+    </div>
+
+    </div>
+
+    <a  name="contact"></a>
+      <div class="intro-header-contact">
+        <div class="bg-overlay-contact">
+
+          <div class="container">
+            <img src="images/contactgreenrec.svg" class="contactgreenrec_home">
+            <img src="images/contactbluerec.svg" class="contactbluerec_home">
+            <img src="images/contactyellowrec.svg" class="contactyellowrec_home">
+              <div class="row">
+                  <div class="col-lg-12">
+                      <div class="intro-message-contact mycontactmessage">
+                          <p>I’m available for freelance or internship opportunities.<br>
+        Contact / Find me on:</p>
+                          <a href="mailto:milanmundra98@gmail.com"><button type="button" class="mylongcta">milanmundra98@gmail.com</button></a>
+
+
+                      </div>
+                      <div>
+                          <a href="https://dribbble.com/milanmundra98" class="fa extlink" target="_blank"><img src="images/dribbble.svg"></a>
+                          <a href="https://www.behance.net/milanmundr0322" class="fa extlink" target="_blank"><img src="images/behance.svg"></a>
+                          <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img src="images/medium.svg"></a>
+                          <a href="https://www.linkedin.com/in/milan98/" class="fa extlink" target="_blank"><img src="images/linkedin.svg"></a>
+                          <a href="https://www.facebook.com/milanmundra98" class="fa extlink" target="_blank"><img src="images/facebook.svg"></a>
+                      </div>
+
+                  </div>
+              </div>
+
+          </div>
+          <!-- /.container -->
+        </div>
+      </div>
+
+
+
+
+
+</body>
+</html>
