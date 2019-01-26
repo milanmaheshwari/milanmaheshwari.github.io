@@ -17,6 +17,15 @@ h6 {
 }
 
 
+.work-style-index{
+    font-weight: bold !important;
+    color: yellow !important;
+  }
+  a.hello:active,a.hello:hover {
+  color: yellow !important;
+}
+
+
 
 .navbar-default {
     background-color: transparent !important;
@@ -440,3 +449,6 @@ opacity: 0.7;
   margin-top: 20px;
 }
 ./* Rectangle */
+.mailto-link{
+  color: white !important
+}

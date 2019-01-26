@@ -2,7 +2,12 @@
 [class*="col-"] {
   padding: 0px;
 }
-
+.a:active {
+  color: red !important;
+}
+.mailto-link{
+  color: white !important
+}
 
 
 @media (min-width: 1200px){
@@ -1558,7 +1563,7 @@ p.highlight{
     width: 1136px;
   }*/
 
-
+ 
 
   .myworktext h2{
     margin-bottom: 0px;
@@ -1686,6 +1691,16 @@ p.highlight{
   font-family: 'Montserrat' , sans-serif;
   font-style: normal;
   font-weight: 500;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #7D7C84;
+}
+ .topnav ul.navbar-nav li a:visited {
+  background:transparent;
+  font-family: 'Montserrat' , sans-serif;
+  font-style: normal;
+  font-weight: 900;
   line-height: normal;
   font-size: 14px;
   text-align: center;

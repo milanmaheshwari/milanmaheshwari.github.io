@@ -50,7 +50,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar-brand-icons mynavlinks">
                     <li>
-                        <a href="home.html#mywork">Work</a>
+                        <a id="work-index" href="home.html#mywork">Work</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
@@ -112,7 +112,7 @@
           <label for="pwd">Message:</label>
           <textarea type="text" class="form-control mymessage" id="msg" name="msg"></textarea>
         </div>
-        <button type="submit" class="myshortcta">Send</button>
+        <button type="submit" class="myshortcta"><a class="mailto-link" href="mailto:milanmundra98@gmail.com" target="_top">Send Mail</a></button>
       </form>
     </div>
     </div>
@@ -120,6 +120,19 @@
     </div>
 
     </div>
+
+ <script>
+ $("a[href^='#']").click(function(e) {
+  e.preventDefault();
+
+  var position = $($(this).attr("href")).offset().top;
+
+  $("body, html").animate({
+    scrollTop: position
+  }, 800 );
+  $("a[href^='#']").addClass("work-style-index");
+ });
+</script>
 
 
 
