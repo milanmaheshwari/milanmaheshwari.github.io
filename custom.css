@@ -61,7 +61,7 @@ border-bottom: 0.5px solid rgba(5,4,1,0.3);
 }
 
 .intro-message{
-  padding: 10% 0% 6%;
+  padding: 8% 0% 6%;
 }
 
 .intro-message h1{
@@ -266,8 +266,8 @@ outline: none;
 
 
 .intro-header {
-    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-    padding-bottom: 50px;
+    padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 80px;
     text-align: center;
     border-bottom: 0.5px solid rgba(5,4,1,0.3);
     background-size: cover;
@@ -437,6 +437,8 @@ img.hobbies2{
   margin: 12px 0px;
 }
 
+
+
 h3.email-contact{
  font-family: 'Open Sans', sans-serif;
  font-style: normal;
@@ -508,37 +510,37 @@ img.homeyellowrec{
 img.contactgreenrec_home{
   position: absolute;
   right: 0px;
-  top:  144px;
+  top:  100px;
 }
 
 img.contactbluerec_home{
   position: absolute;
   left: 0px;
-  top:  372px;
+  top:  280px;
 }
 
 img.contactyellowrec_home{
   position: absolute;
   left: 82px;
-  top:  64px;
+  top:  40px;
 }
 
 img.contactgreenrec_about{
   position: absolute;
   right: 0px;
-  top:  144px;
+  top:  100px;
 }
 
 img.contactbluerec_about{
   position: absolute;
   left: 0px;
-  top:  372px;
+  top:  280px;
 }
 
 img.contactyellowrec_about{
   position: absolute;
   left: 82px;
-  top:  64px;
+  top:  40px;
 }
 
 img.expgreenrec{
@@ -742,7 +744,7 @@ p.highlight{
   }
 
   .intro-message{
-    padding: 10% 0% 6%;
+    padding: 8% 0% 6%;
   }
 
   .intro-message h1{
@@ -948,12 +950,12 @@ p.highlight{
 
 
   .intro-header {
-      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-      padding-bottom: 50px;
+      padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 80px;
       text-align: center;
       border-bottom: 0.5px solid rgba(5,4,1,0.3);
       background-size: cover;
-      height: 620px;
+      height: 640px;
 
   }
 
@@ -1224,42 +1226,42 @@ img.homeyellowrec{
 img.contactgreenrec_home{
   position: absolute;
   right: 0px;
-  top:  140px;
+  top:  100px;
   width: 120px;
 }
 
 img.contactbluerec_home{
   position: absolute;
   left: 0px;
-  top:  320px;
+  top:  260px;
   width: 120px;
 }
 
 img.contactyellowrec_home{
   position: absolute;
   left: 40px;
-  top:  48px;
+  top:  40px;
   width: 60px;
 }
 
 img.contactgreenrec_about{
   position: absolute;
   right: 0px;
-  top:  140px;
+  top:  100px;
   width: 120px;
 }
 
 img.contactbluerec_about{
   position: absolute;
   left: 0px;
-  top:  320px;
+  top:  260px;
   width: 120px;
 }
 
 img.contactyellowrec_about{
   position: absolute;
   left: 40px;
-  top:  48px;
+  top:  40px;
   width: 60px;
 }
 
@@ -1472,7 +1474,7 @@ p.highlight{
   }
 
   .intro-message{
-    padding: 10% 0% 8%;
+    padding: 8% 0% 8%;
   }
 
   .intro-message h1{
@@ -1563,7 +1565,7 @@ p.highlight{
     width: 1136px;
   }*/
 
- 
+
 
   .myworktext h2{
     margin-bottom: 0px;
@@ -1660,8 +1662,8 @@ p.highlight{
 
 
   .intro-header {
-      padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-      padding-bottom: 50px;
+      padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+      padding-bottom: 80px;
       text-align: center;
       border-bottom: 0.5px solid rgba(5,4,1,0.3);
       background-size: cover;
