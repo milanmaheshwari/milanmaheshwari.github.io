@@ -481,6 +481,10 @@ h3.email-contact{
 .form-group input{
   height: 40px;
 }
+  
+.form-group textarea{
+  height: 80px;
+}  
 
 
 .contact-form button{
@@ -1197,6 +1201,10 @@ h3.email-contact{
 .form-group input{
   height: 40px;
 }
+  
+.form-group textarea{
+  height: 80px;
+}   
 
 
 .contact-form button{
@@ -1945,6 +1953,10 @@ h3.email-contact{
 .form-group input{
   height: 40px;
 }
+  
+.form-group textarea{
+  height: 80px;
+}   
 
 
 .contact-form button{
@@ -2743,6 +2755,10 @@ h3.email-contact{
 .form-group input{
   height: 40px;
 }
+    
+.form-group textarea{
+  height: 80px;
+}     
 
 
 .contact-form button{
