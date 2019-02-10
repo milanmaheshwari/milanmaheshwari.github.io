@@ -695,9 +695,9 @@ p.highlight{
 }
   
  .recharge_prototype iframe{
-  margin-top: 60px;
+  margin-top: 20px;
   width:100%;
-  height: 60%;
+  height: 100%;
 }
 
 }
@@ -1432,9 +1432,9 @@ p.highlight{
 }
   
  .recharge_prototype iframe{
-  margin-top: 60px;
+  margin-top: 20px;
   width:100%;
-  height: 80%;
+  height: 100%;
 }
 
 }
@@ -2131,11 +2131,17 @@ p.highlight{
 .expmobile{
   display: none;
 }
-
-iframe{
+  
+.cleartrip_prototype iframe{
   margin-top: 12px;
   width:100%;
-  height:80%;
+  height: 80%;
+}
+  
+ .recharge_prototype iframe{
+  margin-top: 12px;
+  width:100%;
+  height: 80%;
 }
 
 }
@@ -2943,11 +2949,18 @@ p.highlight{
   display: none;
 }
 
-iframe{
-  margin-top: 16px;
-  margin-bottom: 16px;
+.cleartrip_prototype iframe{
+  margin-top: 12px;
   width:100%;
-  height:40%;
+  height: 40%;
+  margin-bottom: 12px;
+}
+  
+ .recharge_prototype iframe{
+  margin-top: 12px;
+  width:100%;
+  height: 40%;
+  margin-bottom: 12px;
 }
 
 
