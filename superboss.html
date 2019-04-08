@@ -22,7 +22,7 @@ m=e.createElement(a);m.async=!0;m.src=t;
 p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 })(window,document,'script','https://u.heatmap.it/log.js');
 </script>
-    
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-134147469-2"></script>
 <script>
@@ -32,7 +32,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
   gtag('config', 'UA-134147469-2');
 </script>
-    
+
 
 
 </head>
@@ -191,7 +191,10 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                  </div>
 
                  <div class="content">
-                    <h2>Home Screen</h2>
+                    <h2>The Expanding Card</h2>
+                 </div>
+                 <div class="content">
+                   <p>The first concept that we came up with was to land the user on the home screen with a card based list of trucks. On tapping, the card would expand to show further options.</p>
                  </div>
 
                </div>
@@ -199,17 +202,37 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
                <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
                  <div class="content">
-                   <img src="images/superboss/homescreen.jpg">
+                   <img src="images/superboss/expandingcard.png">
                  </div>
                </div>
 
 
               <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
                 <div class="content">
-                  <p>The home screen of the app has 3 elements:</p>
-                  <p>• Top Header showing the current balance and total savings made through SuperBOSS. This element was retained from the BOSS app so that the users feel comfortable that they are on a similar platform. Also, the data from ground research suggested that users were concerned about their money and were happy to see their savings upfront.</p>
-                  <p>• Promotional banners showing new offers upfront. It was important in terms of business goals that the users don’t miss them.</p>
-                  <p>• Services that SuperBOSS subscription provides.</p>
+                  <p>Problems that we realized with this approach:</p>
+                  <p>• Research data showed that users have trucks ranging from 5 to even upto 40. Thus for a user with large number of trucks, the exanding card method implied too much scrolling to find a truck.</p>
+                  <p>• Another thing was the promotional offers were hidden in the hamburger menu, which I thought were a secondary task at this point. When I talked to the product manager, I came to know that showing them upfront was important in terms of business goals of the company. The users weren't the exploratory kinds and may miss offers that they should not.</p>
+               </div>
+
+                <div class="content">
+                 <h2>Home Screen</h2>
+                </div>
+
+              </div>
+
+
+
+              <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+                <div class="content">
+                  <img src="images/superboss/homescreen.png">
+                </div>
+              </div>
+
+
+              <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+                <div class="content">
+                  <p>We decided to go with a bottom navigation approach and land the user on the home screen showing promotional services upfront.</p>
+                  <p>The top header, showing the current balance and total savings made through SuperBOSS, was retained from the BOSS app so that the users feel comfortable that they are on a similar platform. Also, the data from ground research suggested that users were concerned about their money and were happy to see their savings upfront.</p>
                 </div>
 
                 <div class="content">
@@ -220,7 +243,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
               <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
                 <div class="content">
-                  <img src="images/superboss/mytruckscreen.jpg">
+                  <img src="images/superboss/mytruckscreen.png">
                 </div>
               </div>
 
@@ -228,35 +251,27 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                 <div class="content">
                   <p>This screen displays a list of the user’s trucks registered on the app.</p>
                   <p>• The top header is retained on this screen as well so that the user can see his balance right up before recharging.</p>
-                  <p>• Data suggested that a user can have a maximum of 40–50 trucks. The list element is kept vertically small yet informative to avoid long scrolls for users with a large number of trucks simultaneously creating no issues for the users with fewer trucks.</p>
-                  <p>• The list element has Fuel and Toll recharge buttons upfront with the card balance of each shown as well. This could have created a problem if the user has more than one fuel/toll card on a truck. But again the data suggested only 2% of the users have so. We included a horizontal scroll on the buttons for this case, which wasn’t a good design solution but its users were very less and the design was optimized for the 98% users. The next section describes how the recharge is done.</p>
-                  <p>As an alternative to list, there is a map view of the trucks as well.</p>
+                  <p>• The list element is kept vertically small yet informative to avoid long scrolls for users with a large number of trucks simultaneously creating no issues for the users with fewer trucks.</p>
+                  <p>• Fuel and Toll recharge buttons are kept upfront with the card balance of each shown as well. This is for users to quickly see all their balances and decide if a recharge is needed.</p>
+                  <p>• Driver scorecard and detailed recharge options are in the truck detail screen.</p>
                 </div>
-                  
+
                 <div class="content">
-                  <h3>Recharge</h3>
+                  <h3>Recharge Options</h3>
                   <p>Tapping on the recharge buttons would bring up a bottom slider.</p>
                   <p>One important thing that we considered here was to show the benefits of recharging right upfront. The research data told us that users are happy to perform an interaction if they see a monetary benefit in it.</p>
                 </div>
               </div>
-                              
-                
-               <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 imagelarge">
-                <div class="content recharge_prototype">
-                  <iframe src="https://player.vimeo.com/video/316456547" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+              <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+                <div class="content">
+                  <img src="images/superboss/rechargeoptions.png">
                 </div>
-               </div>
+              </div>
+
 
                <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
-                <div class="content">
-                  <h3>Truck Details</h3>                  
-                  <p>This screen is about a particular truck on the list. It has 3 elements:</p>
-                  <p>• GPS view to track the path of the truck for a past duration.</p>
-                  <p>• Recharge tab again serves the same functionality of fuel/toll recharges.</p>
-                  <p>• Performance tab displays a scorecard of the driver’s performance. This is useful for the owner to judge how well his employee — the driver is doing.</p>
-                  <img src="images/superboss/truckdetails.jpg">
-               </div>
-              
+
                <div class="content">
                  <h2>Profile and Add Money Screens</h2>
                </div>
