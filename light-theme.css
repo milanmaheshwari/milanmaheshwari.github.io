@@ -746,13 +746,13 @@ p.highlight{
   height: 100%;
 }
 
-.animcontainer{
+#togglelink{
   cursor: pointer;
   padding: 4px 20px;
   background:transparent;
   font-family: 'Montserrat', sans-serif;
-  font-style: normal;
   text-align: center;
+  color: #BFC0C0;
   opacity: 1;
 }
 
