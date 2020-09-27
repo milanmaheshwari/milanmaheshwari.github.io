@@ -306,12 +306,21 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
    }
 
    const themeToggle = document.getElementById('themetoggle');
+	 
+   let animation = bodymovin.loadAnimation({
+            container: themeToggle,
+            renderer: 'svg',
+            loop: false,
+            autoplay: false,
+            path: "lighttodark.json"
+    });	 
 
      function toggle(){
        // if it's light -> go dark
          if(themeStylesheet.href.includes('light')){
              themeStylesheet.href = 'dark-theme.css';
              localStorage.setItem('themevalue','1');
+             animation.playSegments([0,17], true);		 
              
 
              document.getElementById('toplogo').src = "images/logo_dark.svg";
