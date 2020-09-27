@@ -747,12 +747,7 @@ p.highlight{
 }
 
 .animcontainer{
- width: 100%;
- max-width: 60px;
  cursor: pointer;
- background: none;
- border: none;
-
 }
 
 }
