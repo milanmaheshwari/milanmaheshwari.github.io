@@ -324,6 +324,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
              themeStylesheet.href = 'dark-theme.css';
              localStorage.setItem('themevalue','1');
+	     animation.setDirection(1);	 
 	     animation.play(); 	 
 
 
@@ -337,7 +338,8 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
              // if it's dark -> go light
              themeStylesheet.href = 'light-theme.css';
              localStorage.setItem('themevalue','0');
-	     animation.setDirection(-1);	 
+	     animation.setDirection(-1);
+	     animation.play();	 
 
 
              document.getElementById('toplogo').src = "images/logo.svg";
