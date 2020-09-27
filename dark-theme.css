@@ -753,11 +753,17 @@ p.highlight{
 
 .animcontainer{
   cursor: pointer;
+  padding: 4px 20px;
+  background:transparent;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 16px;
+  text-align: center;
+  color: #BFC0C0;
+  opacity: 1;
 }
-    
-.togglelink{
- padding: 4px 20px;   
-}    
 
 }
 
