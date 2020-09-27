@@ -295,8 +295,8 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
    var animation = bodymovin.loadAnimation({
      container: themeToggle,
      renderer: 'svg',
-     loop: true,
-     autoplay: true,
+     loop: false,
+     autoplay: false,
      path: 'data.json'
    })
 
@@ -324,6 +324,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
              themeStylesheet.href = 'dark-theme.css';
              localStorage.setItem('themevalue','1');
+	     animation.play(); 	 
 
 
              document.getElementById('toplogo').src = "images/logo_dark.svg";
