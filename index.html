@@ -9,11 +9,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+  <script src="bodymovin.js"></script>
+
+
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
 
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="custom.css">
+
+
+<link id="theme" rel="stylesheet" type="text/css">
+
 
 <script>
 (function(h,e,a,t,m,p) {
@@ -52,23 +59,24 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                     <span class="icon-bar"></span>
 
                 </button>
-                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img src="./images/logo.svg"></a>
+                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img id="toplogo" src="./images/logo.svg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar-brand-icons mynavlinks">
                     <li>
-                        <a href="#mywork" id="worklink">Work</a>
+                        <a href="#mywork" id="worklink">Portfolio</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="resources/Milan_Maheshwari_Resume.pdf" target="_blank">Resume</a>
+                         <a href="contact.html">Contact</a>
+                     </li>
+                    <li>
+                        <a id="themetoggle"><span class="animcontainer" id="animcont">Dark</span></a>
                     </li>
-                   <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -92,15 +100,15 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                 <div class="col-lg-12">
                     <div class="intro-message">
                         <h1>MILAN MAHESHWARI</h1>
-                        <p>I’m a self-taught Digital Product Designer from IIT Roorkee who enjoys simplicity, creativity and problem solving through design.</p>
-                        <a href="#mywork"><button type="button" class="myshortcta">View Work</button></a>
+                        <p>Hi, that's my name above. I’m an engineer turned Product Designer from IIT Roorkee. Currently designing consumer experiences at Swiggy.</p>
+                        <a href="#mywork"><button type="button" class="myshortcta">View Portfolio</button></a>
 
                     </div>
                 </div>
             </div>
 
             <div class="scrollindicator">
-              <img src="images/scroll.svg">
+              <img id ="scrollmark" src="images/scroll.svg">
             </div>
 
         </div>
@@ -115,34 +123,36 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
     <div class="content-section-a mycontent">
       <div class="bg-overlay2">
         <div class="container">
-          <div class="row work-rows">
+          <a href="swiggywatch.html"><div class="row work-rows">
               <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 myworkimg col-sm-8 col-sm-offset-2">
-                  <img class="work-image " src="images/swiggywatch.jpg" width="464px" height="368px">
+                  <img class="work-image " src="images/swiggywatch_thumbnail.png" width="464px" height="368px">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
 
                   <div class="clearfix"></div>
                 <h2 class="section-heading">Designing the Smartwatch Experience for Swiggy</h2>
 
-    <p class="work-para">Swiggy's order tracking experience for both apple watchOS and google wearOS smartwatch platforms that I designed during my internship.</p>
-    <a href="swiggywatch.html"><button type="button" class="myshortcta">Read Case Study</button></a>
+    <p class="work-para">One of the projects of my summer internship was to design Swiggy's order tracking experience on smartwatch platforms.</p>
+    <p class="work-date">MAY 2019 - JULY 2019 • BANGALORE</p>
               </div>
-          </div>
-          <div class="row work-rows">
-              <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 myworkimg">
-                  <img class="work-image " src="images/cleartrip.jpg" width="464px" height="368px">
+          </div></a>
+          <a href="between2worlds.html"><div class="row work-rows">
+              <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 myworkimg col-sm-8 col-sm-offset-2">
+                  <img class="work-image " src="images/game_thumbnail.png" width="464px" height="368px">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
 
                   <div class="clearfix"></div>
-                <h2 class="section-heading">Cleartrip Internship Project - Directors' Board</h2>
-                <p class="work-para">Worked on an internal management tool for the board directors of Cleartrip during my winter internship here.</p>
-                <a href="cleartrip.html"><button type="button" class="myshortcta">Read Case Study</button></a>
+                <h2 class="section-heading">Between Two Worlds - Game Design Process</h2>
+
+    <p class="work-para">Story behind designing my first Video Game from scratch, which eventually got developed. Link to play inside :D</p>
+    <p class="work-date">JAN 2020 - MARCH 2020 • IIT ROORKEE</p>
               </div>
-          </div>
-          <div class="row work-rows">
+          </div></a>
+
+          <a href="superboss.html"><div class="row work-rows">
               <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 myworkimg">
-                  <img class="work-image " src="images/superboss.jpg" width="464px" height="368px">
+                  <img class="work-image " src="images/superboss_thumbnail.png" width="464px" height="368px">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
 
@@ -150,43 +160,44 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                 <h2 class="section-heading">SuperBOSS - Product Design Case Study</h2>
 
     <p class="work-para">A fleet management mobile application that I designed during my summer internship at BlackBuck Logistics.</p>
-    <a href="superboss.html"><button type="button" class="myshortcta">Read Case Study</button></a>
+    <p class="work-date">MAY 2018 - JULY 2018 • BANGALORE</p>
               </div>
-          </div>
-          <div class="row work-rows">
-              <div class="col-lg-5 col-lg-offset-1 myworkimg col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2">
-                  <img class="work-image " src="images/otomate.jpg" width="464px" height="368px">
+          </div></a>
+          <a href="cleartrip.html"><div class="row work-rows">
+              <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2 myworkimg">
+                  <img class="work-image " src="images/cleartrip_thumbnail.png" width="464px" height="368px">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
 
                   <div class="clearfix"></div>
-                <h2 class="section-heading">How I designed Otomate - Smart Home App</h2>
-
-    <p class="work-para">Design process behind the first full-fledged real project that I worked on during my ‘work from home’ internship at Smartify.</p>
-    <a href="otomate.html"><button type="button" class="myshortcta">Read Case Study</button></a>
+                <h2 class="section-heading">Cleartrip Internship Project - Directors' Board</h2>
+                <p class="work-para">Worked on an internal management tool for the board directors of Cleartrip during my winter internship here.</p>
+                <p class="work-date">NOV 2018 - DEC 2018 • BANGALORE</p>
               </div>
-          </div>
+          </div></a>
+
 
 
    <div id="hiddenworkrows">
 
-          <div class="row work-rows">
+
+     <a href="otomate.html"><div class="row work-rows">
+         <div class="col-lg-5 col-lg-offset-1 myworkimg col-md-5 col-md-offset-1 col-sm-8 col-sm-offset-2">
+             <img class="work-image " src="images/otomate_thumbnail.png" width="464px" height="368px">
+         </div>
+         <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
+
+             <div class="clearfix"></div>
+           <h2 class="section-heading">How I designed Otomate - Smart Home App</h2>
+
+      <p class="work-para">Design process behind the first full-fledged real project that I worked on during my ‘work from home’ internship at Smartify.</p>
+      <p class="work-date">DEC 2017 - JAN 2018</p>
+         </div>
+     </div></a>
+
+          <a href="mutualfunds.html"><div class="row work-rows">
               <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 myworkimg col-sm-8 col-sm-offset-2">
-                  <img class="work-image " src="images/syntaxerror.jpg" width="464px" height="368px">
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
-
-                  <div class="clearfix"></div>
-                <h2 class="section-heading">Syntax Error - the Campus Hackathon of IIT Roorkee.</h2>
-
-    <p class="work-para">Process behind creating the visual design language of Syntax Error that we at SDSLabs (a student run tech group) organized.</p>
-    <a href="syntaxerror.html"><button type="button" class="myshortcta">Read Case Study</button></a>
-              </div>
-          </div>
-
-          <div class="row work-rows">
-              <div class="col-lg-5 col-lg-offset-1 col-md-5 col-md-offset-1 myworkimg col-sm-8 col-sm-offset-2">
-                  <img class="work-image " src="images/mutualfunds.jpg" width="464px" height="368px">
+                  <img class="work-image " src="images/mutualfunds_thumbnail.png" width="464px" height="368px">
               </div>
               <div class="col-lg-4 col-md-4 col-sm-8 col-sm-offset-2 myworktext">
 
@@ -194,9 +205,9 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                 <h2 class="section-heading">Mutual Funds Landing Page Design Process</h2>
 
     <p class="work-para">Case study that I prepared for the 3-day design sprint excercise that I did for an internship assignment.</p>
-    <a href="mutualfunds.html"><button type="button" class="myshortcta">Read Case Study</button></a>
+    <p class="work-date">MAR 2018</p>
               </div>
-          </div>
+          </div></a>
 
           </div>
 
@@ -234,7 +245,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                     <div>
                         <a href="https://dribbble.com/milanmundra98" class="fa extlink" target="_blank"><img src="images/dribbble.svg"></a>
                         <a href="https://www.behance.net/milanmundra98" class="fa extlink" target="_blank"><img src="images/behance.svg"></a>
-                        <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img src="images/medium.svg"></a>
+                        <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img id="mediumicon" src="images/medium.svg"></a>
                         <a href="https://www.linkedin.com/in/milan98/" class="fa extlink" target="_blank"><img src="images/linkedin.svg"></a>
                         <a href="https://twitter.com/millons098" class="fa extlink" target="_blank"><img src="images/twitter.svg"></a>
                     </div>
@@ -277,48 +288,106 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
  -->
 
  <script>
- function displaymorework() {
-   var x = document.getElementById("hiddenworkrows");
-   var y = document.getElementById("viewmorebtn");
-   if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
-        x.style.display = 'block';
-        y.style.display = 'none';
-    } else {
-        x.style.display = 'none';
-    }
- }
+ //Dark Mode
+
+  let togglebtn = document.getElementById('animcont');
+
+   let lighttodark = bodymovin.loadAnimation({
+           container: togglebtn,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: "lighttodark.json"
+   });
+
+   let darkttolight = bodymovin.loadAnimation({
+           container: togglebtn,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: "darktolight.json"
+   });
+
+   const themeStylesheet = document.getElementById('theme');
+
+   const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
+   if(storedTheme == 0){
+         themeStylesheet.href = 'light-theme.css';
+         document.getElementById('toplogo').src = "images/logo.svg";
+         document.getElementById('scrollmark').src = "images/scroll.svg";
+         document.getElementById('mediumicon').src = "images/medium.svg";
+   }else if (storedTheme == 1) {
+         themeStylesheet.href = 'dark-theme.css';
+         document.getElementById('toplogo').src = "images/logo_dark.svg";
+         document.getElementById('scrollmark').src = "images/scroll_dark.svg";
+         document.getElementById('mediumicon').src = "images/medium_dark.svg";
+   }
+
+   const themeToggle = document.getElementById('themetoggle');
+
+     function toggle(){
+       // if it's light -> go dark
+         if(themeStylesheet.href.includes('light')){
+             themeStylesheet.href = 'dark-theme.css';
+             localStorage.setItem('themevalue','1');
+             lighttodark.playSegments([0,17],true);
+
+             document.getElementById('toplogo').src = "images/logo_dark.svg";
+             document.getElementById('scrollmark').src = "images/scroll_dark.svg";
+             document.getElementById('mediumicon').src = "images/medium_dark.svg";
+
+
+
+         } else {
+             // if it's dark -> go light
+             themeStylesheet.href = 'light-theme.css';
+             localStorage.setItem('themevalue','0');
+             darktolight.playSegments([0,17],true);
+
+             document.getElementById('toplogo').src = "images/logo.svg";
+             document.getElementById('scrollmark').src = "images/scroll.svg";
+             document.getElementById('mediumicon').src = "images/medium.svg";
+
+
+         }
+
+     }
+
+     themeToggle.addEventListener('click', toggle);
+
+
+
+ //ViewMore Button
+
+     function displaymorework() {
+       var x = document.getElementById("hiddenworkrows");
+       var y = document.getElementById("viewmorebtn");
+       if ( window.getComputedStyle(x, null).getPropertyValue("display") === 'none') {
+            x.style.display = 'block';
+            y.style.display = 'none';
+        } else {
+            x.style.display = 'none';
+        }
+     }
+
+ </script>
+
+ <script>
+
 
  $("a[href^='#']").click(function(e) {
- 	e.preventDefault();
+  	e.preventDefault();
 
- 	var position = $($(this).attr("href")).offset().top;
+    var position = $($(this).attr("href")).offset().top;
 
- 	$("body, html").animate({
- 		scrollTop: position
- 	}, 720 );
- });
+  	$("body, html").animate({
+  		scrollTop: position
+  	}, 720 );
+  });
 
-</script>
+ </script>
 
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('html, body').hide();
-
-        if (window.location.hash) {
-            setTimeout(function() {
-                $('html, body').scrollTop(0).show();
-                $('html, body').animate({
-                    scrollTop: $(window.location.hash).offset().top
-                    }, 720)
-            }, 0);
-        }
-        else {
-            $('html, body').show();
-        }
-    });
-</script>
-
-<script>
+ <script>
 
  $('#worklink').on('click', function(){
   $('.navbar-collapse').collapse('hide');

@@ -13,7 +13,7 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="custom.css">
+<link id="theme" rel="stylesheet" type="text/css">
 
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -46,23 +46,24 @@
                     <span class="icon-bar"></span>
 
                 </button>
-                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img src="./images/logo.svg"></a>
+                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img id="toplogo" src="./images/logo.svg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right navbar-brand-icons mynavlinks">
                     <li>
-                        <a href="index.html#mywork">Work</a>
+                        <a href="index.html#mywork" id="worklink">Portfolio</a>
                     </li>
                     <li>
                         <a href="about.html">About</a>
                     </li>
                     <li>
-                        <a href="resources/Milan_Maheshwari_Resume.pdf" target="_blank">Resume</a>
+                         <a href="contact.html">Contact</a>
+                     </li>
+                    <li>
+                        <a><button type ="button" id="themetoggle">Dark</button></a>
                     </li>
-                   <li>
-                        <a href="contact.html">Contact</a>
-                    </li>
+
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -79,7 +80,7 @@
         <div class="row">
 
         <div class="col-lg-12 col-md-12 storyheaderimage">
-          <img src="images/mutualfunds/header.jpg" class="headernonmobile">
+          <img id="header" src="images/mutualfunds/Mutual Funds_header.png" class="headernonmobile">
           <!--<img src="images/mutualfunds/headermobile.jpg" class="headermobile">-->
         </div>
 
@@ -305,7 +306,7 @@
                     <div>
                         <a href="https://dribbble.com/milanmundra98" class="fa extlink" target="_blank"><img src="images/dribbble.svg"></a>
                         <a href="https://www.behance.net/milanmundra98" class="fa extlink" target="_blank"><img src="images/behance.svg"></a>
-                        <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img src="images/medium.svg"></a>
+                        <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img id="mediumicon" src="images/medium.svg"></a>
                         <a href="https://www.linkedin.com/in/milan98/" class="fa extlink" target="_blank"><img src="images/linkedin.svg"></a>
                         <a href="https://twitter.com/millons098" class="fa extlink" target="_blank"><img src="images/twitter.svg"></a>
                     </div>
@@ -318,6 +319,58 @@
       </div>
     </div>
 
+    <script>
+    //Dark Mode
+
+      const themeStylesheet = document.getElementById('theme');
+
+      const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
+      if(storedTheme == 0){
+            themeStylesheet.href = 'light-theme.css';
+            document.getElementById('toplogo').src = "images/logo.svg";
+            document.getElementById('mediumicon').src = "images/medium.svg";
+            document.getElementById('header').src = "images/mutualfunds/Mutual Funds_header.png";
+
+      }else if (storedTheme == 1) {
+            themeStylesheet.href = 'dark-theme.css';
+            document.getElementById('toplogo').src = "images/logo_dark.svg";
+            document.getElementById('mediumicon').src = "images/medium_dark.svg";
+            document.getElementById('header').src = "images/mutualfunds/Mutual Funds_header_dark.png";
+
+      }
+
+      const themeToggle = document.getElementById('themetoggle');
+
+        function toggle(){
+          // if it's light -> go dark
+            if(themeStylesheet.href.includes('light')){
+                themeStylesheet.href = 'dark-theme.css';
+                localStorage.setItem('themevalue','1');
+
+                document.getElementById('toplogo').src = "images/logo_dark.svg";
+                document.getElementById('mediumicon').src = "images/medium_dark.svg";
+                document.getElementById('header').src = "images/mutualfunds/Mutual Funds_header_dark.png";
+
+
+
+            } else {
+                // if it's dark -> go light
+                themeStylesheet.href = 'light-theme.css';
+                localStorage.setItem('themevalue','0');
+
+                document.getElementById('toplogo').src = "images/logo.svg";
+                document.getElementById('mediumicon').src = "images/medium.svg";
+                document.getElementById('header').src = "images/mutualfunds/Mutual Funds_header.png";
+
+
+            }
+
+        }
+
+        themeToggle.addEventListener('click', toggle);
+
+
+    </script>
 
 </body>
 </html>
