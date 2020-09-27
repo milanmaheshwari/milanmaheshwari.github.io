@@ -7,8 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
 
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
@@ -73,7 +72,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                          <a href="contact.html">Contact</a>
                      </li>
                     <li>
-                        <a><span class="animcontainer" id="themetoggle">Dark</span></a>
+                        <a><span id="themetoggle" class="animcontainer">Dark</span></a>
                     </li>
 
                 </ul>
@@ -286,8 +285,20 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
     </footer>
  -->
 
+<script src="lottie.js"></script>
+
  <script>
  //Dark Mode
+
+  const themeToggle = document.getElementById('themetoggle');
+
+   var animation = bodymovin.loadAnimation({
+     container: themeToggle,
+     renderer: 'svg',
+     loop: true,
+     autoplay: true,
+     path: 'data.json'
+   })
 
    const themeStylesheet = document.getElementById('theme');
 
@@ -304,16 +315,16 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
          document.getElementById('mediumicon').src = "images/medium_dark.svg";
    }
 
-   const themeToggle = document.getElementById('themetoggle');
-	 
+
 
      function toggle(){
        // if it's light -> go dark
          if(themeStylesheet.href.includes('light')){
+
+
              themeStylesheet.href = 'dark-theme.css';
              localStorage.setItem('themevalue','1');
-            		 
-             
+
 
              document.getElementById('toplogo').src = "images/logo_dark.svg";
              document.getElementById('scrollmark').src = "images/scroll_dark.svg";
@@ -325,7 +336,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
              // if it's dark -> go light
              themeStylesheet.href = 'light-theme.css';
              localStorage.setItem('themevalue','0');
-             
+
 
              document.getElementById('toplogo').src = "images/logo.svg";
              document.getElementById('scrollmark').src = "images/scroll.svg";
@@ -358,7 +369,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
  <script>
 
 
- $("a[href^='#']").click(function(e) {
+ /*$("a[href^='#']").click(function(e) {
   	e.preventDefault();
 
     var position = $($(this).attr("href")).offset().top;
@@ -366,15 +377,15 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
   	$("body, html").animate({
   		scrollTop: position
   	}, 720 );
-  });
+  });*/
 
  </script>
 
  <script>
 
- $('#worklink').on('click', function(){
+ /*$('#worklink').on('click', function(){
   $('.navbar-collapse').collapse('hide');
-});
+});*/
 
 </script>
 
