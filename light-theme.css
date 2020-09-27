@@ -750,6 +750,10 @@ p.highlight{
  cursor: pointer;
 }
 
+.togglelink{
+ padding: 4px 20px;   
+ }
+
 }
 
 
