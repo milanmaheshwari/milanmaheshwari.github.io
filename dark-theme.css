@@ -754,6 +754,10 @@ p.highlight{
 .animcontainer{
   cursor: pointer;
 }
+    
+.togglelink{
+ padding: 4px 20px;   
+}    
 
 }
 
