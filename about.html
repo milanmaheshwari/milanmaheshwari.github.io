@@ -70,7 +70,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                          <a href="contact.html">Contact</a>
                      </li>
                     <li>
-                        <a><button type ="button" id="themetoggle">Dark</button></a>
+                        <a id="togglelink"><span id="themetoggle" class="animcontainer"></span></a>
                     </li>
 
                 </ul>
@@ -220,71 +220,91 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
         </div>
       </div>
 
-<script>
-//Dark Mode
+<script src="lottie.js"></script>
 
-  const themeStylesheet = document.getElementById('theme');
-
-  const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
-  if(storedTheme == 0){
-        themeStylesheet.href = 'light-theme.css';
-        document.getElementById('toplogo').src = "images/logo.svg";
-        document.getElementById('mediumicon').src = "images/medium.svg";
-        document.getElementById('expnonmobile').src = "images/experience.svg";
-        document.getElementById('expmobile').src = "images/experiencemobile.svg";
-        document.getElementById('hobby').src = "images/hobbies.svg";
-        document.getElementById('hobbymobile').src = "images/hobbies2.svg";
-
-  }else if (storedTheme == 1) {
-        themeStylesheet.href = 'dark-theme.css';
-        document.getElementById('toplogo').src = "images/logo_dark.svg";
-        document.getElementById('mediumicon').src = "images/medium_dark.svg";
-        document.getElementById('expnonmobile').src = "images/experience_dark.svg";
-        document.getElementById('expmobile').src = "images/experiencemobile_dark.svg";
-        document.getElementById('hobby').src = "images/hobbies_dark.svg";
-        document.getElementById('hobbymobile').src = "images/hobbies2_dark.svg";
-
-  }
+ <script>
+ //Dark Mode
 
   const themeToggle = document.getElementById('themetoggle');
 
-    function toggle(){
-      // if it's light -> go dark
-        if(themeStylesheet.href.includes('light')){
-            themeStylesheet.href = 'dark-theme.css';
-            localStorage.setItem('themevalue','1');
+   var animation;
+   var x;	 
+	 
 
-            document.getElementById('toplogo').src = "images/logo_dark.svg";
-            document.getElementById('mediumicon').src = "images/medium_dark.svg";
-            document.getElementById('expnonmobile').src = "images/experience_dark.svg";
-            document.getElementById('expmobile').src = "images/experiencemobile_dark.svg";
-            document.getElementById('hobby').src = "images/hobbies_dark.svg";
-            document.getElementById('hobbymobile').src = "images/hobbies2_dark.svg";
+   const themeStylesheet = document.getElementById('theme');
+
+   const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
+   if(storedTheme == 0){
+         themeStylesheet.href = 'light-theme.css';
+	 animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data.json'
+         });
+	  x = 1; 
+	   
+         document.getElementById('toplogo').src = "images/logo.svg";
+         document.getElementById('scrollmark').src = "images/scroll.svg";
+         document.getElementById('mediumicon').src = "images/medium.svg";
+   }else if (storedTheme == 1) {
+         themeStylesheet.href = 'dark-theme.css';
+	 animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data2.json'
+         });
+	  x = -1;  
+	 
+         document.getElementById('toplogo').src = "images/logo_dark.svg";
+         document.getElementById('scrollmark').src = "images/scroll_dark.svg";
+         document.getElementById('mediumicon').src = "images/medium_dark.svg";
+   }
 
 
 
-        } else {
-            // if it's dark -> go light
-            themeStylesheet.href = 'light-theme.css';
-            localStorage.setItem('themevalue','0');
-
-            document.getElementById('toplogo').src = "images/logo.svg";
-            document.getElementById('mediumicon').src = "images/medium.svg";
-            document.getElementById('expnonmobile').src = "images/experience.svg";
-            document.getElementById('expmobile').src = "images/experiencemobile.svg";
-            document.getElementById('hobby').src = "images/hobbies.svg";
-            document.getElementById('hobbymobile').src = "images/hobbies2.svg";
+     function toggle(){
+       // if it's light -> go dark
+         if(themeStylesheet.href.includes('light')){
 
 
-        }
+             themeStylesheet.href = 'dark-theme.css';
+             localStorage.setItem('themevalue','1');
+	     animation.setDirection(x);	 
+	     animation.play(); 	 
 
-    }
 
-    themeToggle.addEventListener('click', toggle);
+             document.getElementById('toplogo').src = "images/logo_dark.svg";
+             document.getElementById('scrollmark').src = "images/scroll_dark.svg";
+             document.getElementById('mediumicon').src = "images/medium_dark.svg";
 
 
 
-</script>
+         } else {
+             // if it's dark -> go light
+             themeStylesheet.href = 'light-theme.css';
+             localStorage.setItem('themevalue','0');
+	     animation.setDirection(-x);
+	     animation.play();	 
+
+
+             document.getElementById('toplogo').src = "images/logo.svg";
+             document.getElementById('scrollmark').src = "images/scroll.svg";
+             document.getElementById('mediumicon').src = "images/medium.svg";
+
+
+         }
+
+     }
+
+     themeToggle.addEventListener('click', toggle);
+
+
+
+ </script>
 
 </body>
 
