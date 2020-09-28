@@ -293,26 +293,37 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
   const themeToggle = document.getElementById('themetoggle');
 
-   var animation = bodymovin.loadAnimation({
-     container: themeToggle,
-     renderer: 'svg',
-     loop: false,
-     autoplay: false,
-     path: 'data.json'
-   })
+   var animation;
+   var x;	 
+	 
 
    const themeStylesheet = document.getElementById('theme');
 
    const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
    if(storedTheme == 0){
          themeStylesheet.href = 'light-theme.css';
+	 animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data.json'
+         });
+	  x = 1; 
 	   
          document.getElementById('toplogo').src = "images/logo.svg";
          document.getElementById('scrollmark').src = "images/scroll.svg";
          document.getElementById('mediumicon').src = "images/medium.svg";
    }else if (storedTheme == 1) {
          themeStylesheet.href = 'dark-theme.css';
-	 animation.goToAndStop(17, false); 
+	 animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data2.json'
+         });
+	  x = -1;  
 	 
          document.getElementById('toplogo').src = "images/logo_dark.svg";
          document.getElementById('scrollmark').src = "images/scroll_dark.svg";
@@ -328,7 +339,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
              themeStylesheet.href = 'dark-theme.css';
              localStorage.setItem('themevalue','1');
-	     animation.setDirection(1);	 
+	     animation.setDirection(x);	 
 	     animation.play(); 	 
 
 
@@ -342,7 +353,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
              // if it's dark -> go light
              themeStylesheet.href = 'light-theme.css';
              localStorage.setItem('themevalue','0');
-	     animation.setDirection(-1);
+	     animation.setDirection(-x);
 	     animation.play();	 
 
 
