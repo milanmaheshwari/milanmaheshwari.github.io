@@ -69,7 +69,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
                          <a href="contact.html">Contact</a>
                      </li>
                     <li>
-                        <a><button type ="button" id="themetoggle">Dark</button></a>
+                        <a id="togglelink"><span id="themetoggle" class="animcontainer"></span></a>
                     </li>
 
                 </ul>
@@ -286,21 +286,47 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
       <!-- /.container -->
     </div>
   </div>
+        
+  <script src="lottie.js"></script>      
 
   <script>
   //Dark Mode
+
+    const themeToggle = document.getElementById('themetoggle');
+
+    var animation;
+    var x;	 
+	 
 
     const themeStylesheet = document.getElementById('theme');
 
     const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
     if(storedTheme == 0){
           themeStylesheet.href = 'light-theme.css';
+	      animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data.json'
+          });
+	      x = 1; 
+        
           document.getElementById('toplogo').src = "images/logo.svg";
           document.getElementById('mediumicon').src = "images/medium.svg";
           document.getElementById('header').src = "images/swiggywatch/swiggy_header.png";
 
     }else if (storedTheme == 1) {
           themeStylesheet.href = 'dark-theme.css';
+	      animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data2.json'
+         });
+	     x = -1;  
+        
           document.getElementById('toplogo').src = "images/logo_dark.svg";
           document.getElementById('mediumicon').src = "images/medium_dark.svg";
           document.getElementById('header').src = "images/swiggywatch/swiggy_header_dark.png";
@@ -314,6 +340,8 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
           if(themeStylesheet.href.includes('light')){
               themeStylesheet.href = 'dark-theme.css';
               localStorage.setItem('themevalue','1');
+	          animation.setDirection(x);	 
+	          animation.play(); 	 
 
               document.getElementById('toplogo').src = "images/logo_dark.svg";
               document.getElementById('mediumicon').src = "images/medium_dark.svg";
@@ -325,6 +353,8 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
               // if it's dark -> go light
               themeStylesheet.href = 'light-theme.css';
               localStorage.setItem('themevalue','0');
+	          animation.setDirection(-x);
+	          animation.play();
 
               document.getElementById('toplogo').src = "images/logo.svg";
               document.getElementById('mediumicon').src = "images/medium.svg";
