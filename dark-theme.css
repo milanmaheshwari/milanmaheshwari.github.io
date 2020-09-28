@@ -1540,6 +1540,16 @@ p.highlight{
   width:100%;
   height: 100%;
 }
+    
+#togglelink{
+  cursor: pointer;
+  padding: 4px 20px;
+  background:transparent;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #BFC0C0;
+  opacity: 1;
+}    
 
 }
 
@@ -2275,6 +2285,16 @@ p.highlight{
   width:100%;
   height: 80%;
 }
+    
+#togglelink{
+  cursor: pointer;
+  padding: 4px 20px;
+  background:transparent;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #BFC0C0;
+  opacity: 1;
+}    
 
 }
 
@@ -3120,6 +3140,16 @@ p.highlight{
   height: 40%;
   margin-bottom: 12px;
 }
+      
+#togglelink{
+  cursor: pointer;
+  padding: 4px 20px;
+  background:transparent;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  color: #BFC0C0;
+  opacity: 1;
+}      
 
 
 .navbar-default .navbar-toggle {
