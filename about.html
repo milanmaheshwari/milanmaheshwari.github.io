@@ -223,7 +223,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 <script src="lottie.js"></script>
 
  <script>
- //Dark Mode
+//Dark Mode
 
   const themeToggle = document.getElementById('themetoggle');
 
@@ -233,9 +233,9 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
    const themeStylesheet = document.getElementById('theme');
 
-   const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
-   if(storedTheme == 0){
-         themeStylesheet.href = 'light-theme.css';
+  const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
+  if(storedTheme == 0){
+        themeStylesheet.href = 'light-theme.css';
 	 animation = bodymovin.loadAnimation({
            container: themeToggle,
            renderer: 'svg',
@@ -244,12 +244,15 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
            path: 'data.json'
          });
 	  x = 1; 
-	   
-         document.getElementById('toplogo').src = "images/logo.svg";
-         document.getElementById('scrollmark').src = "images/scroll.svg";
-         document.getElementById('mediumicon').src = "images/medium.svg";
-   }else if (storedTheme == 1) {
-         themeStylesheet.href = 'dark-theme.css';
+	  
+        document.getElementById('mediumicon').src = "images/medium.svg";
+        document.getElementById('expnonmobile').src = "images/experience.svg";
+        document.getElementById('expmobile').src = "images/experiencemobile.svg";
+        document.getElementById('hobby').src = "images/hobbies.svg";
+        document.getElementById('hobbymobile').src = "images/hobbies2.svg";
+
+  }else if (storedTheme == 1) {
+        themeStylesheet.href = 'dark-theme.css';
 	 animation = bodymovin.loadAnimation({
            container: themeToggle,
            renderer: 'svg',
@@ -258,53 +261,58 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
            path: 'data2.json'
          });
 	  x = -1;  
-	 
-         document.getElementById('toplogo').src = "images/logo_dark.svg";
-         document.getElementById('scrollmark').src = "images/scroll_dark.svg";
-         document.getElementById('mediumicon').src = "images/medium_dark.svg";
-   }
+	  
+        document.getElementById('toplogo').src = "images/logo_dark.svg";
+        document.getElementById('mediumicon').src = "images/medium_dark.svg";
+        document.getElementById('expnonmobile').src = "images/experience_dark.svg";
+        document.getElementById('expmobile').src = "images/experiencemobile_dark.svg";
+        document.getElementById('hobby').src = "images/hobbies_dark.svg";
+        document.getElementById('hobbymobile').src = "images/hobbies2_dark.svg";
 
+  }
 
-
-     function toggle(){
-       // if it's light -> go dark
-         if(themeStylesheet.href.includes('light')){
-
-
-             themeStylesheet.href = 'dark-theme.css';
+    function toggle(){
+      // if it's light -> go dark
+        if(themeStylesheet.href.includes('light')){
+            themeStylesheet.href = 'dark-theme.css';
              localStorage.setItem('themevalue','1');
 	     animation.setDirection(x);	 
 	     animation.play(); 	 
 
+            document.getElementById('toplogo').src = "images/logo_dark.svg";
+            document.getElementById('mediumicon').src = "images/medium_dark.svg";
+            document.getElementById('expnonmobile').src = "images/experience_dark.svg";
+            document.getElementById('expmobile').src = "images/experiencemobile_dark.svg";
+            document.getElementById('hobby').src = "images/hobbies_dark.svg";
+            document.getElementById('hobbymobile').src = "images/hobbies2_dark.svg";
 
-             document.getElementById('toplogo').src = "images/logo_dark.svg";
-             document.getElementById('scrollmark').src = "images/scroll_dark.svg";
-             document.getElementById('mediumicon').src = "images/medium_dark.svg";
 
 
-
-         } else {
-             // if it's dark -> go light
-             themeStylesheet.href = 'light-theme.css';
+        } else {
+            // if it's dark -> go light
+            themeStylesheet.href = 'light-theme.css';
              localStorage.setItem('themevalue','0');
 	     animation.setDirection(-x);
 	     animation.play();	 
 
 
-             document.getElementById('toplogo').src = "images/logo.svg";
-             document.getElementById('scrollmark').src = "images/scroll.svg";
-             document.getElementById('mediumicon').src = "images/medium.svg";
+            document.getElementById('toplogo').src = "images/logo.svg";
+            document.getElementById('mediumicon').src = "images/medium.svg";
+            document.getElementById('expnonmobile').src = "images/experience.svg";
+            document.getElementById('expmobile').src = "images/experiencemobile.svg";
+            document.getElementById('hobby').src = "images/hobbies.svg";
+            document.getElementById('hobbymobile').src = "images/hobbies2.svg";
 
 
-         }
+        }
 
-     }
+    }
 
-     themeToggle.addEventListener('click', toggle);
+    themeToggle.addEventListener('click', toggle);
 
 
 
- </script>
+</script>
 
 </body>
 
