@@ -306,11 +306,13 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
    const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
    if(storedTheme == 0){
          themeStylesheet.href = 'light-theme.css';
+	 animation.setDirection(1);  
          document.getElementById('toplogo').src = "images/logo.svg";
          document.getElementById('scrollmark').src = "images/scroll.svg";
          document.getElementById('mediumicon').src = "images/medium.svg";
    }else if (storedTheme == 1) {
          themeStylesheet.href = 'dark-theme.css';
+	 animation.setDirection(-1);  
          document.getElementById('toplogo').src = "images/logo_dark.svg";
          document.getElementById('scrollmark').src = "images/scroll_dark.svg";
          document.getElementById('mediumicon').src = "images/medium_dark.svg";
