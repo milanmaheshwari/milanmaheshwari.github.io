@@ -44,6 +44,10 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
 <body>
     <div w3-include-html="content.html"></div>
+	
+    <div class = "load_wrapper" style="display: none;">
+      <img src="images/loader.gif">
+    </div>	
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav mynavbar" role="navigation">
@@ -286,6 +290,12 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
     </footer>
  -->
 
+<script>
+ $(window).on("load",function(){
+      $(".loader-wrapper").fadeOut("slow");
+ });
+ </script>	
+	
 <script src="lottie.js"></script>
 
  <script>
