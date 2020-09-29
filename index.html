@@ -43,11 +43,11 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 </head>
 
 <body>
-    <div w3-include-html="content.html"></div>
 	
-    <div class = "load_wrapper" style="display: none;">
-      <img src="images/loader.gif">
-    </div>	
+    <div id="loader"></div>
+	
+    <div w3-include-html="content.html"></div>
+		
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top topnav mynavbar" role="navigation">
@@ -289,12 +289,6 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
         </div>
     </footer>
  -->
-
-<script>
- $(window).on("load",function(){
-      $(".loader-wrapper").fadeOut("slow");
- });
- </script>	
 	
 <script src="lottie.js"></script>
 
@@ -416,6 +410,12 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
   $('.navbar-collapse').collapse('hide');
 });
 
+</script>
+	
+<script>
+  var preloader = document.getElementById('loader');
+  function preLoaderHandler(){
+  preloader.style.display = 'none';
 </script>
 
 
