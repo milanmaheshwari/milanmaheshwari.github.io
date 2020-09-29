@@ -5,6 +5,14 @@ html {
 
 }
 
+#loader{
+	position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #f9f9f9 url('images/loader.gif') no-repeat center;
+	z-index: 999;
+}
+
 
 [class*="col-"] {
   padding: 0px;
