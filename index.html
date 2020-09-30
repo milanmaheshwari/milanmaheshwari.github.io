@@ -44,6 +44,12 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 	background: #f9f9f9 url('loader.gif') no-repeat center center;
 	z-index: 9999999;"></div>
 	
+  <script>
+  const storagetheme = parseInt(localStorage.getItem("themevalue")) || 0;
+  if(storagetheme == 0){document.getElementById('loader').style.background= "#f9f9f9 url('loader.gif') no-repeat center center";}
+  else if(storagetheme == 1){document.getElementById('loader').style.background = "#222430 url('loader.gif') no-repeat center center";}
+  </script>
+	
     <div w3-include-html="content.html"></div>
 		
 
