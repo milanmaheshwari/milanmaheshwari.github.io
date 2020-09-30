@@ -6,19 +6,13 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+	
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
-
-
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-<link id="theme" rel="stylesheet" type="text/css">
+  <link id="theme" rel="stylesheet" type="text/css">
 
 
 <script>
@@ -42,8 +36,9 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
 </head>
 
-<body>
+<body onload = "preLoaderHandler()">
 	
+    <div id="loader"></div>
 	
     <div w3-include-html="content.html"></div>
 		
@@ -289,6 +284,9 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
     </footer>
  -->
 	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>	
+	
 <script src="lottie.js"></script>
 
  <script>
@@ -410,6 +408,15 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 });
 
 </script>
+	
+<script>
+      var preloader = document.getElementById('loader');
+      function preLoaderHandler(){
+         preloader.style.opacity = '0';
+         preloader.style.transition = 'opacity 0.5s ease';
+         setTimeout(function(){preloader.style.display = 'none';}, 500);
+      }
+</script>	
 
 
 
