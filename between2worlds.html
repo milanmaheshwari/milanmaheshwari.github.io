@@ -1,0 +1,368 @@
+<html>
+
+<head>
+    <title>Milan Maheshwari</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logotitle.png" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link id="theme" rel="stylesheet" type="text/css">
+
+
+<script>
+(function(h,e,a,t,m,p) {
+m=e.createElement(a);m.async=!0;m.src=t;
+p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+})(window,document,'script','https://u.heatmap.it/log.js');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134147469-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134147469-2');
+</script>
+
+
+
+
+</head>
+
+<body onload = "preLoaderHandler()" style="width: 100%; height: 100%;">
+
+    <div id="loader" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #f9f9f9 url('loader.gif') no-repeat center center;
+	z-index: 9999999;"></div>
+
+  <script>
+  const storagetheme = parseInt(localStorage.getItem("themevalue")) || 0;
+  if(storagetheme == 0){document.getElementById('loader').style.background= "#f9f9f9 url('loader.gif') no-repeat center center";}
+  else if(storagetheme == 1){document.getElementById('loader').style.background = "#222430 url('loader.gif') no-repeat center center";}
+  </script>
+
+    <div w3-include-html="content.html"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav mynavbar" role="navigation">
+        <div class="container topnav mycontainer">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header mynavbarheader">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only"><img src="./images/logo.svg"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img id="toplogo" src="./images/logo.svg"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right navbar-brand-icons mynavlinks">
+                    <li>
+                        <a href="index.html#mywork" id="worklink">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                         <a href="contact.html">Contact</a>
+                     </li>
+                    <li>
+                        <a id="togglelink"><span id="themetoggle" class="animcontainer"></span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+
+    <div class="storyintroheader">
+      <div class="bg-overlay">
+
+        <div class="row">
+
+        <div class="col-lg-12 col-md-12 storyheaderimage">
+          <img id="header" src="images/between2worlds/between2worlds_header.png" class="headernonmobile">
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>I am a self-taught UX designer and a huge fan of video games. Apart from enjoying the feeling of completing a good game, I’m fascinated by the way game designers employ a whole new dimension of user experience and the way humans interact with computer games.</p>
+            <p>This article is the story of how I designed my own Video Game from scratch — from understanding the basics of game design to overcoming the challenging stages along the way. The game finally got developed thanks to one of my programmer friend.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Understanding the Experience of Gaming 🎮</h1>
+
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>While playing a game, suppose you want to go from door 1 to door 2 in a hallway. One way would be to simply walk across the floor… yeah, that’s no fun 😪. Another way would be to dodge laser obstacles along the way…that sounds a bit cool 😁. Now suppose there are zombies coming out of the floor and you’ve to avoid them and the lasers…now that’s a challenge 😳.</p>
+          </div>
+          <div class="content">
+            <p class="highlight">"Video games introduce a voluntary effort from the user to solve problems and overcome unnecessary hurdles for fun. — Bernard Suits"</p>
+          </div>
+          <div class="content">
+            <p>To understand the basic concepts of game design, I went through multiple tutorials and read a number of articles. But the best way to learn something is to experience it yourself. Playing different kinds of games and observing the small things gave me enough insights to start designing my own game:</p>
+          </div>
+          <div class="content">
+            <h2>Meaningful Play</h2>
+            <p>People play games for fun, but that’s not enough. Why would someone wanna stick to the end of a game, what motivates them to play for hours?</p>
+            <p><b>• Goals: </b>a simple, clear and authentic goal is at the heart of every game (for eg. in angry birds the goal is to kill all the birds and retrieve the eggs whereas in far cry 3 goals can range from finding a gun to saving the captured friends from tribes).</p>
+            <p><b>• Discovery: </b>making the player curious about what’s gonna happen next, so that they keep on progressing (for eg. what kind of enemies would come in this level and where would the next level take me to).</p>
+            <p><b>• Rewards: </b>giving a feeling of accomplishment to the player for his efforts (for eg. by empowering the player’s character or by using badges, victory royales, leaderboards, etc.) at regular checkpoints or intervals.</p>
+          </div>
+          <div class="content">
+            <h2>Balanced Approach</h2>
+            <p>So you’re playing your favorite video game and as you proceed through the levels and gain skills, have you noticed that the enemies also keep getting stronger. Game designers try to keep things balanced so that the game is challenging enough to keep you interested, not too challenging that you give up discouraged nor too easy that you feel bored.</p>
+          </div>
+          <div class="content">
+            <h2>‘Engageability’</h2>
+            <p>As UX designers, we’re inclined to design products that solve problems, are functional and delightful. Apart from designing for usability, Game UX aims for engage-ability (the ability of a game to engage its users).</p>
+            <p class="highlight">Game UX = Usability + Engage-ability</p>
+            <p>By using the ingredients of balance and motivation along with appealing to the emotion of the player, game designers take them to a state called gameflow (a state of deep focus and immersion devoid of any distraction).</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Designing the Game</h1>
+            <h4>Getting hands to work.</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>If you’re like me, you may want your game to be something grand that people would go crazy for. But making your first game like Call of Duty or GTA is next to impossible (it took a team of more than 1000 people to develop GTA V over the course of several years 😧). I realized that I’ve to start small but design a game that I could finish and would interest people at its best.</p>
+            <p>This led me to the special place of 2-D games — they are simple, easy to make and have been around for a long time in the gaming industry.</p>
+          </div>
+          <div class="content">
+            <h2>Idea and Story</h2>
+            <p>The first step was to think of an idea — something that could hook the player to the game. I am a fan of fiction-thrillers and stories which involve elements of suspense and twist. Inspired by which I decided to design something with time-travel which has been part of many movies and books. The next thing was to thread a story around it.</p>
+            <img src="images/between2worlds/story.jpeg">
+            <p>The typical structure of a story is almost always the same and games are no different to it. ‘There is a protagonist or the hero who finds himself in a problem; While trying to solve it, the problem intensifies either by the work of the antagonist (enemy/villain) or by his own decisions; Until he finally solves it which results in a resolution or conclusion.’</p>
+          </div>
+          <div class="content">
+            <h2>Game Mechanics</h2>
+            <p>Game mechanics are simply the actions a player takes during gameplay. Each game has a core mechanic which is repeated throughout the game. It can be as simple as pressing WASD to move in a flappy bird game, to hitting multiple buttons to build structures and shoot enemies in fortnite.</p>
+            <img src="images/between2worlds/mechanics.gif">
+            <p>I decided to go for a 2-D platformer game that only has a single plane for freedom of movement, which meant the complexity of our game mechanics was simplified. We also kept in mind to introduce fewer player controls in the beginning and then gradually more to keep the learning curve balanced.</p>
+          </div>
+          <div class="content">
+            <h2>Character and World Design</h2>
+            <p>With the story and the mechanics of the game figured out, it was time to design the things that players would actually see on the screen — characters, and the environment they would live and interact with.</p>
+            <img src="images/between2worlds/characters.png">
+            <p>For the design of characters and the world, it was important to:</p>
+            <p><b>• Set a theme: </b><i>(futuristic, adventure-mystery)</i> for deriving the traits of the characters <i>(an eccentric scientist with confused expressions as the hero and sharp-edged mechanical enemies)</i> and the mood to set upon <i>(bright colors with a balance of cool mysterious shades and warm adventurous shades).</i></p>
+            <p><b>• Complement the story: </b>by justifying the actions of the main character <i>(creating a backstory);</i> and by designing levels as the spaces in which the player would experience the events of the hero’s journey.</p>
+            <img src="images/between2worlds/levels.gif">
+            <p>The good thing about working with 2-D graphics was I could use my already familiar UX design tools (Figma/Illustrator/AfterEffects).</p>
+          </div>
+          <div class="content">
+            <h2>Animations</h2>
+            <p>For player and enemy movement, I made frame-by-frame graphic sequences of body orientation while running, jumping, shooting, etc. More frames give a more realistic feel to the animation but also requires more effort.</p>
+            <img src="images/between2worlds/frames.png">
+          </div>
+          <div class="content">
+            <h2>Sound Design</h2>
+            <p>Sound design plays a critical role in games where we want to immerse the player into the experience. It can often be taken for granted while playing a game — try to play your favorite game on mute once and you’ll realize the importance of sound. Sound design can be used to:</p>
+            <p><b>• Provide cues </b>that clarify and reinforce what’s happening around.</p>
+            <p><b>• Evoke emotion </b>that can pull the player into the experience.</p>
+            <p>We actually found it quite difficult to employ a holistic sound experience in the game because — firstly, composing our own sound was a mammoth skill to master and even if we tried, a little note here and there could break the sound and secondly, using pre-composed sound sets posed a copyright problem. The only thing to our rescue was using royalty-free music in the most appropriate way possible.</p>
+          </div>
+          <div class="content">
+            <h2>UI Elements</h2>
+            <p>A video game UI consists of components that help players navigate, find information, and accomplish goals. Apart from this, it was important that the game UI goes well with the theme and enhances the mood we wanted to set upon. There are mainly 3 types of UI elements in our game:</p>
+            <p>• Part of the story and existing within the game’s world making the main character aware of them:</p>
+            <img src="images/between2worlds/ui1.png">
+            <p>• Part of the story but outside the game’s world, just for the user:</p>
+            <img src="images/between2worlds/ui2.png">
+            <p>• Not part of the story and outside the game’s world:</p>
+            <img src="images/between2worlds/ui3.png">
+          </div>
+        </div>
+
+
+       <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+         <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+           <h1>Alright, it's game on!</h1>
+           <p>After several weeks of designing, developing we had our own game in front of us and it gave me a weirdly good feeling to complete an entire run without getting killed (I know, you would say I was already aware of every enemy because I put it there 😜). Now, before you go on and play it yourself, here’s a little trailer of the game for you to enjoy:</p>
+        </div>
+        <div class="content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 cleartrip_prototype">
+         <iframe src="https://www.youtube.com/embed/ZSY89gg0yUc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+       </div>
+     </div>
+
+     <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+       <div class="content">
+         <p>You can play the game from the link below: (if you’re reading this on mobile, you may wanna switch to a desktop screen to play it).</p>
+         <a href="https://ghazia.itch.io/between-two-worlds"><p class="highlight" style="font-style: normal"><b>Between Two Worlds</b><br>A 2D platformer game with adventure, science and mystery.<br><i>itch.io</i></p></a>
+         <p>Thanks for reading it till the end. If you have any feedback let me know so that we can work on improving it further :D</p>
+       </div>
+     </div>
+
+
+
+
+        <a href="superboss.html">
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight nextstory">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h4>Next Story</h4>
+            <h1>SuperBOSS - Product Design Case Study</h1>
+          </div>
+        </div>
+        </a/>
+
+      </div>
+    </div>
+  </div>
+
+  <a  name="contact"></a>
+  <div class="intro-header-contact">
+    <div class="bg-overlay-contact">
+
+      <div class="container">
+        <img src="images/contactgreenrec.svg" class="contactgreenrec_home">
+        <img src="images/contactbluerec.svg" class="contactbluerec_home">
+        <img src="images/contactyellowrec.svg" class="contactyellowrec_home">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="intro-message-contact mycontactmessage">
+                      <p>I’m available for freelance work.</p>
+
+                      <a href="contact.html"><button type="button" class="mylongcta">Send a message</button></a>
+
+
+                  </div>
+                  <div>
+                      <a href="https://dribbble.com/milanmundra98" class="fa extlink" target="_blank"><img src="images/dribbble.svg"></a>
+                      <a href="https://www.behance.net/milanmundra98" class="fa extlink" target="_blank"><img src="images/behance.svg"></a>
+                      <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img id="mediumicon" src="images/medium.svg"></a>
+                      <a href="https://www.linkedin.com/in/milan98/" class="fa extlink" target="_blank"><img src="images/linkedin.svg"></a>
+                      <a href="https://twitter.com/millons098" class="fa extlink" target="_blank"><img src="images/twitter.svg"></a>
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+
+  <script src="lottie.js"></script>
+
+  <script>
+  //Dark Mode
+
+    const themeToggle = document.getElementById('themetoggle');
+
+    var animation;
+    var x;
+
+
+    const themeStylesheet = document.getElementById('theme');
+
+    const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
+    if(storedTheme == 0){
+          themeStylesheet.href = 'light-theme.css';
+	      animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data.json'
+          });
+	      x = 1;
+
+          document.getElementById('toplogo').src = "images/logo.svg";
+          document.getElementById('mediumicon').src = "images/medium.svg";
+
+
+    }else if (storedTheme == 1) {
+          themeStylesheet.href = 'dark-theme.css';
+	      animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data2.json'
+         });
+	     x = -1;
+
+          document.getElementById('toplogo').src = "images/logo_dark.svg";
+          document.getElementById('mediumicon').src = "images/medium_dark.svg";
+
+
+    }
+
+      function toggle(){
+        // if it's light -> go dark
+          if(themeStylesheet.href.includes('light')){
+              themeStylesheet.href = 'dark-theme.css';
+              localStorage.setItem('themevalue','1');
+	          animation.setDirection(x);
+	          animation.play();
+
+              document.getElementById('toplogo').src = "images/logo_dark.svg";
+              document.getElementById('mediumicon').src = "images/medium_dark.svg";
+
+
+
+
+          } else {
+              // if it's dark -> go light
+              themeStylesheet.href = 'light-theme.css';
+              localStorage.setItem('themevalue','0');
+	          animation.setDirection(-x);
+	          animation.play();
+
+              document.getElementById('toplogo').src = "images/logo.svg";
+              document.getElementById('mediumicon').src = "images/medium.svg";
+
+
+
+          }
+
+      }
+
+      themeToggle.addEventListener('click', toggle);
+
+
+  </script>
+
+  <script>
+      var preloader = document.getElementById('loader');
+      function preLoaderHandler(){
+         preloader.style.opacity = '0';
+         preloader.style.transition = 'opacity 0.5s ease';
+         setTimeout(function(){preloader.style.display = 'none';}, 500);
+      }
+  </script>
+
+</body>
+</html>
