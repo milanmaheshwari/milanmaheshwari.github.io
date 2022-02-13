@@ -180,85 +180,76 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
             <p>I started showing around the prototypes to the folks at Swiggy — who not only work here but most are avid Swiggy users themselves. I realized that people generally focus on the task at hand (in this case rating the order), and having a tipping detour made the journey complicated.</p>
             <h4>There is just too much going on with the ratings! — was the opinion</h4>
             <p>Okay, what are we trying to solve here? I thought. Our goal is to cater to the motivations of satisfied consumers. So why not allow them to decide how happy they are (by rating above 3 stars) and then nudge them to tip.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
             <img src="images/detipping/iteration3.gif">
-          </div>
-        </div>
-
-        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
-          <div class="content">
-            <p>• I tried to keep the interface minimal and simple, showing only the most relevant things at a glance keeping in mind the short interaction span that a watch offers.</p>
-            <p>• I removed the map (which shows the location of the restaurant, delivery boy and the location to be delivered) because a complex task like interacting with a map is a pain on a smartwatch. Imagine zooming or panning on such a small screen!</p>
-            <p>• The most important information that people will look for is the status of their food order. I tried to keep the focus on what is currently going on and how long will the delivery take, even in the notifications which are the most frequently interacted part of any smartwatch app experience.</p>
+            <p>Alright, this looked good 🙌</p>
+            <p>There was one problem though. This required the engineering team to build the slide-to-pay module from scratch. This was easily a two-week effort. As a designer, I was a little stubborn about delivering the best possible UX, but we couldn’t afford to delay the project so much. Why? because…</p>
+            <h4>Product development is a continuous process. Shipping fast meant validating our assumptions early, learning more about the users and getting better the next time. 🚀</h4>
+            <p>Finally, we went ahead with the longer payment route — the one that already existed for order payments during checkout.</p>
           </div>
         </div>
 
         <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
           <div class="content">
-            <img src="images/swiggywatch/ui1.png">
+            <img src="images/detipping/longerpayment.png">
           </div>
         </div>
 
         <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
           <div class="content">
-            <h2>Design Feedback</h2>
-            <p>The next thing was to take feedback on the design from everyone. Showing the designs on a Sketch artboard was definitely not worth it and we wanted to get a prototype as close as possible to the real experience. So, Sapta (my design manager- this is we usually call him) suggested putting the screen images on a real smartwatch.</p>
-            <p>• The most common feedback was - as a user when I tap on the status notification and go to the main app, it essentially shows me the same information for the active step. So, there was no worth of opening the app as no one was actually interested to scroll and see inactive steps.</p>
-            <p>• The idea of removing the map didn't work. People actually expected to see the map as it works as an assurance that everything is going right. So, even if interacting with a map on a small screen is difficult, just seeing the delivery bike's icon gave an idea of how far is the food and if it's coming the right way.</p>
-            <p>• There were some visual design problems like the ETA on wearOS looked like a button and many tapped on it; using an icon with the left aligned text on apple watch was making it cluttered; and how to decide the hierarchy of information: ETA, status, description.</p>
+            <p>There was one thing left though, what to do about pre-order tipping? The cart is already in a very complex state… should we remove it? Since empathy isn’t the driving factor for pre-order tips, can we do something better?</p>
+            <p>We thought of a couple of ideas here —showing messages in the context of special cases of rain, surge, long-distance. And personal stories about the lives of our hardworking partners.</p>
+            <img src="images/detipping/contxtualmessages.gif">
+            <img src="images/detipping/partnerstories.gif">
           </div>
         </div>
 
 
         <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
           <div class="content">
-            <h1>Back to the Artboard</h1>
-            <p>Based on the feedback, it was time to go back to the artboard and iterate some more explorations of the concept. UI that we arrived at finally:</p>
+            <h1>How did it work?</h1>
+            <h4>The Rollout</h4>
           </div>
         </div>
 
         <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
           <div class="content">
-            <img src="images/swiggywatch/ui2.png">
+            <p>We released the post-order tipping and pre-order improvements as an experiment in Bengaluru for a couple of weeks and then pan India. Data came in, lots of it…percentage of tipped orders, amount tipped, etc. We analyzed this for a couple of months, and…</p>
+            <h4>Post-order tips were 17% higher than pre-order tips. And the overall tip amounts rose by 50%!</h4>
+            <p>Clearly, people wanted to tip more after a satisfying order experience. Our hypothesis was validated! 🎊</p>
           </div>
         </div>
 
         <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
           <div class="content">
-            <h2>Final Prototype</h2>
-            <img src="images/swiggywatch/prototype.gif">
+            <p>Did everything work out as we thought? Not really. There was one problem we observed in the post-order funnel. A significant chunk of users who selected an amount dropped before completing the payment.</p>
+            <p>Why was this happening? Maybe people hesitated to pay another amount just after getting their meal — perhaps we need a way to tip previous orders whenever someone wants to. Or maybe the long payment tradeoff didn’t work for relatively smaller amounts — the effort required was too much leading to users abandoning the tipping flow. 🤔</p>
           </div>
         </div>
 
-
-
-        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
-          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-            <h1>Developing to Pixel Perfection</h1>
-          </div>
-          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-            <p>The app then went in the development phase for both the platforms. The next thing, I sat with the developers adjusting the fonts, spacing and literally every pixel till it looked perfect on every real smartwatch (which in Swiggy lingo is called PP or Pixel Perfection). The app finally got shipped, initially for a few test users and then recently for everyone.</p>
-            <img src="images/swiggywatch/pp.png">
-          </div>
-        </div>
 
         <div class="col-lg-12 col-md-12 col-sm-12 storysection">
           <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
             <h1>Final Takeaways</h1>
-            <p>This project was a big step towards the goal of providing a more convenient and less distracting experience to our users. As part of the strategy, we were also planning to implement tracking the order with the help of Alexa voice assistant. And in future, simple workflows of order placing might be enabled on a smartwatch- like previously ordered items or Swiggy POP</p>
-            <img src="images/swiggywatch/alexa.png">
-            <p>Among the other things that I did as a product design intern, this project was a special one because it got shipped for the people to use and there was a ton of things to learn throughout the journey. Read my <a href="https://medium.com/swiggydesign/summers-at-swiggy-21662051aba4">article</a> on medium to know more about my experiences and lessons that learned as a design intern at Swiggy.
+            <p>We’ll get on jamming these problems and probably come up with something better in future releases. Nevertheless, before concluding, I just wanna mention the best takeaway from this one:</p>
+            <h4>When working in design teams, there are people who worked before you, and there will be people after you. At your current stage, how can you best be involved and active in making change for things you believe in.</h4>
+            <h4>Design is like a relay race!</h4>
           </div>
         </div>
 
 
-        <a href="between2worlds.html">
+        <a href="swiggywatch.html">
         <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight nextstory">
           <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
             <h4>Next Story</h4>
-            <h1>Between Two Worlds - Game Design Process</h1>
+            <h1>Designing the Smartwatch Experience for Swiggy</h1>
           </div>
         </div>
-        </a/>
+        </a>
 
       </div>
     </div>
@@ -327,6 +318,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
         
           document.getElementById('toplogo').src = "images/logo.svg";
           document.getElementById('mediumicon').src = "images/medium.svg";
+          document.getElementById('header').src = "images/swiggywatch/swiggy_header.png";
 
     }else if (storedTheme == 1) {
           themeStylesheet.href = 'dark-theme.css';
@@ -341,6 +333,7 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
         
           document.getElementById('toplogo').src = "images/logo_dark.svg";
           document.getElementById('mediumicon').src = "images/medium_dark.svg";
+          document.getElementById('header').src = "images/swiggywatch/swiggy_header_dark.png";
 
     }
 
@@ -354,6 +347,9 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
               document.getElementById('toplogo').src = "images/logo_dark.svg";
               document.getElementById('mediumicon').src = "images/medium_dark.svg";
+              document.getElementById('header').src = "images/swiggywatch/swiggy_header_dark.png";
+
+
 
           } else {
               // if it's dark -> go light
@@ -364,6 +360,8 @@ p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
 
               document.getElementById('toplogo').src = "images/logo.svg";
               document.getElementById('mediumicon').src = "images/medium.svg";
+              document.getElementById('header').src = "images/swiggywatch/swiggy_header.png";
+
 
           }
 
