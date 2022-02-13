@@ -1544,12 +1544,13 @@ p.highlight{
     
 #togglelink{
   cursor: pointer;
-  padding: 4px 20px;
+  padding: 4px 16px;
   background:transparent;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #BFC0C0;
   opacity: 1;
+  transform: scale(0.75);
 }    
 
 }
@@ -2289,12 +2290,13 @@ p.highlight{
     
 #togglelink{
   cursor: pointer;
-  padding: 4px 20px;
+  padding: 4px 16px;
   background:transparent;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
   color: #BFC0C0;
   opacity: 1;
+  transform: scale(0.75);
 }    
 
 }
@@ -3150,6 +3152,7 @@ p.highlight{
   text-align: center;
   color: #BFC0C0;
   opacity: 1;
+  transform: scale(0.75);
 }      
 
 
