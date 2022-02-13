@@ -759,6 +759,7 @@ p.highlight{
   text-align: center;
   color: #BFC0C0;
   opacity: 1;
+  transform: scale(0.75);
 }
 
 }
