@@ -1,0 +1,395 @@
+<html>
+
+<head>
+    <title>Milan Maheshwari</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logotitle.png" />
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700,800" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link id="theme" rel="stylesheet" type="text/css">
+
+
+<script>
+(function(h,e,a,t,m,p) {
+m=e.createElement(a);m.async=!0;m.src=t;
+p=e.getElementsByTagName(a)[0];p.parentNode.insertBefore(m,p);
+})(window,document,'script','https://u.heatmap.it/log.js');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134147469-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134147469-2');
+</script>
+
+
+
+
+</head>
+
+<body onload = "preLoaderHandler()" style="width: 100%; height: 100%;">
+	
+    <div id="loader" style="position: fixed;
+	width: 100%;
+	height: 100vh;
+	background: #f9f9f9 url('loader.gif') no-repeat center center;
+	z-index: 9999999;"></div>
+	
+  <script>
+  const storagetheme = parseInt(localStorage.getItem("themevalue")) || 0;
+  if(storagetheme == 0){document.getElementById('loader').style.background= "#f9f9f9 url('loader.gif') no-repeat center center";}
+  else if(storagetheme == 1){document.getElementById('loader').style.background = "#222430 url('loader.gif') no-repeat center center";}
+  </script>
+	
+    <div w3-include-html="content.html"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav mynavbar" role="navigation">
+        <div class="container topnav mycontainer">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header mynavbarheader">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+
+                    <span class="sr-only"><img src="./images/logo.svg"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand topnav mynavbarbrand" href="index.html"><img id="toplogo" src="./images/logo.svg"></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right navbar-brand-icons mynavlinks">
+                    <li>
+                        <a href="index.html#mywork" id="worklink">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                         <a href="contact.html">Contact</a>
+                     </li>
+                    <li>
+                        <a id="togglelink"><span id="themetoggle" class="animcontainer"></span></a>
+                    </li>
+
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Header -->
+
+    <div class="storyintroheader">
+      <div class="bg-overlay">
+
+        <div class="row">
+
+        <div class="col-lg-12 col-md-12 storyheaderimage">
+          <img id="header" src="images/swiggywatch/swiggy_header.png" class="headernonmobile">
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>It's fascinating to see the evolution of mobile phone interfaces over the last few years - from blackberry with keypads to the latest range of big-screen iPhones. With the coming of VR/AR and high-quality surface desktops, our interaction with technology keeps getting more and more immersive. But imagine a new dimension of human-computer interaction where our life-experiences are enhanced by relating more to the real world with a subtle touch of technology… Kudos if you guessed it right! This dimension already exists. With the new wave of smartwatch and voice UX, the interactive screens are simultaneously getting smaller and smaller to even no interface at all, taking us closer to a less distracting world.</p>
+            <p>During the summers of 2019, I got a chance to work in the new dimension (you know what I mean) during my product design internship at Swiggy - India's largest food ordering and delivery company. This article describes the story of how I designed the smartwatch app for Swiggy starting from scratch to finally see my intern project getting shipped.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Understanding the Product</h1>
+            <h4>Asking the experts.</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>It was just two weeks into my internship when my design manager, Saptarshi Prakash told me about the project and asked me if I would be willing to design the smartwatch experience for Swiggy. I agreed, knowing that I had never used a smartwatch before let alone designing for one. But I wanted to learn something new and the best way was to take up the challenge.</p>
+            <p>Before diving into the design process, I wanted to have an understanding of what the product was about, why are we building this, what problems are we trying to solve and for whom, etc. So, I went around the Swiggy office finding answers to these questions:</p>
+          </div>
+          <div class="content">
+            <p><b style="font-size: 300%;">1.</b> The data science team discovered that users spend a lot of time on the Swiggy app's order tracking screen as they want to know how far their delivery executive is and how soon they can expect their food. They come back to the order tracking screen multiple times in the time span of 20 to 45 minutes (the expected delivery time) just to keep a tab on their order.</p>
+            <img src="images/swiggywatch/swiggyuser.png">
+            <p>This type of behavior hinders any other real-world activities you may wanna do. For eg. suppose you're on your desk in the office and instead of working you're gazing your mobile screen to know how far is the food you ordered for lunch, or you're working out but checking your phone again and again for the energy shake you've ordered.</p>
+          </div>
+          <div class="content">
+            <p><b style="font-size: 300%;">2.</b> Talking to the product manager, I came to know the strategy behind solving this problem. For some of our premium users who use a smartwatch, we were planning to enable simple workflows of the Swiggy's food ordering experience on wear OS and apple watch - starting with the tracking experience for now. Apparently, interacting with these wearable computing devices is less distracting (the next thing was to find out how!)</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Research</h1>
+            <h4>Methodologies and Insights</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>I knew very little about smartwatches or wearables and it was necessary to have a good understanding of how people use smartwatches, what problems they solve, things to consider when designing for them, etc. I began with some online research - yes! internet, the magical world where someone probably had faced the problem you're facing and is available to help you out.</p>
+            <p>To better understand how the ordering experience really worked and what goes behind the scenes after an order was placed from the Swiggy app, I also spent a day with one of the delivery executives going from restaurants to customers, doing a few food deliveries myself on the roads of Bangalore.</p>
+            <img src="images/swiggywatch/delivery.gif">
+            <p>The people at Swiggy not only work here but most of them are avid Swiggy users themselves which means they have their own experiences, aspirations, disappointments, etc. from a user's perspective. Some of them used a smartwatch as well which was great for me as I could get so many insights from the team only.</p>
+          </div>
+          <div class="content">
+            <h2>Some useful insights that I got from the research:</h2>
+            <p>• Smartwatches aren't miniature versions of our mobile and desktop computers. Instead of cramming everything on a small screen, we should aim for <b>lightweight interactions, quick workflows, and simplicity.</b></p>
+            <p>• Watches constantly move, are looked and interacted at unusual angles; therefore <b>their attention spans are low</b>, unlike the smartphones which demand complete attention and interrupt real-world activities. <b>Notifications and glanceability</b> rule the world of smartwatch design.</p>
+            <p>• A typical food ordering workflow on Swiggy is rather complex. There are a lot of restaurants and dishes to choose from, people may change their minds at any point, even the tracking experience is not straightforward when something goes wrong and the customer support or delivery executive intervenes.</p>
+            <img src="images/swiggywatch/flow.png">
+            <p>• Apple and Google have provided their own visual language and design guidelines for iWatch and wearOS (respectively). One does not have much scope of deviating from the guideline as it's the way that a smartwatch user is supposed to expect.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Defining the Problem</h1>
+          </div>
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h4>The end goal to achieve: How to make order tracking a more convenient experience for the end-user.</h4>
+            <p>For the tracking experience on a smartwatch, I tried to break down the design problems that we wanted to solve in 'how might we' statements:</p>
+            <p>• HMW design a more subtle experience instead of an immersive one.</p>
+            <p>• HMW allow users to do other activities while keeping them informed all times.</p>
+            <p>• HMW benefit the holistic experience of ordering food.</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h1>Solving the Problem</h1>
+            <p>I figured out that the value proposition of a smartwatch was to provide the core experience of tracking the order by providing just the right information at just the right time, without distracting the user from any other real-world activities. For complex tasks like browsing restaurants/dishes or contacting the customer support/delivery executive, the user could always come back to his smartphone in the digital ecosystem of his watch.</p>
+            <p>With this, I could gather my thoughts and begin with some ideation keeping the HMWs in mind. I sketched a storyboard to visualize the entire journey of a character ordering food and how might he interact with his smartwatch.</p>
+            <img src="images/swiggywatch/story.png">
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Designing the Interface</h1>
+            <h4>Putting things together in Sketch.</h4>
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <p>• I tried to keep the interface minimal and simple, showing only the most relevant things at a glance keeping in mind the short interaction span that a watch offers.</p>
+            <p>• I removed the map (which shows the location of the restaurant, delivery boy and the location to be delivered) because a complex task like interacting with a map is a pain on a smartwatch. Imagine zooming or panning on such a small screen!</p>
+            <p>• The most important information that people will look for is the status of their food order. I tried to keep the focus on what is currently going on and how long will the delivery take, even in the notifications which are the most frequently interacted part of any smartwatch app experience.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/swiggywatch/ui1.png">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Design Feedback</h2>
+            <p>The next thing was to take feedback on the design from everyone. Showing the designs on a Sketch artboard was definitely not worth it and we wanted to get a prototype as close as possible to the real experience. So, Sapta (my design manager- this is we usually call him) suggested putting the screen images on a real smartwatch.</p>
+            <p>• The most common feedback was - as a user when I tap on the status notification and go to the main app, it essentially shows me the same information for the active step. So, there was no worth of opening the app as no one was actually interested to scroll and see inactive steps.</p>
+            <p>• The idea of removing the map didn't work. People actually expected to see the map as it works as an assurance that everything is going right. So, even if interacting with a map on a small screen is difficult, just seeing the delivery bike's icon gave an idea of how far is the food and if it's coming the right way.</p>
+            <p>• There were some visual design problems like the ETA on wearOS looked like a button and many tapped on it; using an icon with the left aligned text on apple watch was making it cluttered; and how to decide the hierarchy of information: ETA, status, description.</p>
+          </div>
+        </div>
+
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h1>Back to the Artboard</h1>
+            <p>Based on the feedback, it was time to go back to the artboard and iterate some more explorations of the concept. UI that we arrived at finally:</p>
+          </div>
+        </div>
+
+        <div class="col-lg-10 col-lg-offset-1 col-md-12 col-md-offset-0 col-sm-12 col-sm-offset-0 imagelarge">
+          <div class="content">
+            <img src="images/swiggywatch/ui2.png">
+          </div>
+        </div>
+
+        <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 storysection">
+          <div class="content">
+            <h2>Final Prototype</h2>
+            <img src="images/swiggywatch/prototype.gif">
+          </div>
+        </div>
+
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Developing to Pixel Perfection</h1>
+          </div>
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <p>The app then went in the development phase for both the platforms. The next thing, I sat with the developers adjusting the fonts, spacing and literally every pixel till it looked perfect on every real smartwatch (which in Swiggy lingo is called PP or Pixel Perfection). The app finally got shipped, initially for a few test users and then recently for everyone.</p>
+            <img src="images/swiggywatch/pp.png">
+          </div>
+        </div>
+
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h1>Final Takeaways</h1>
+            <p>This project was a big step towards the goal of providing a more convenient and less distracting experience to our users. As part of the strategy, we were also planning to implement tracking the order with the help of Alexa voice assistant. And in future, simple workflows of order placing might be enabled on a smartwatch- like previously ordered items or Swiggy POP</p>
+            <img src="images/swiggywatch/alexa.png">
+            <p>Among the other things that I did as a product design intern, this project was a special one because it got shipped for the people to use and there was a ton of things to learn throughout the journey. Read my <a href="https://medium.com/swiggydesign/summers-at-swiggy-21662051aba4">article</a> on medium to know more about my experiences and lessons that learned as a design intern at Swiggy.
+          </div>
+        </div>
+
+
+        <a href="between2worlds.html">
+        <div class="col-lg-12 col-md-12 col-sm-12 storysection storyhighlight nextstory">
+          <div class="content col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+            <h4>Next Story</h4>
+            <h1>Between Two Worlds - Game Design Process</h1>
+          </div>
+        </div>
+        </a/>
+
+      </div>
+    </div>
+  </div>
+
+  <a  name="contact"></a>
+  <div class="intro-header-contact">
+    <div class="bg-overlay-contact">
+
+      <div class="container">
+        <img src="images/contactgreenrec.svg" class="contactgreenrec_home">
+        <img src="images/contactbluerec.svg" class="contactbluerec_home">
+        <img src="images/contactyellowrec.svg" class="contactyellowrec_home">
+          <div class="row">
+              <div class="col-lg-12">
+                  <div class="intro-message-contact mycontactmessage">
+                      <p>Have something interesting, I'm always up for a chat.</p>
+
+                      <a href="contact.html"><button type="button" class="mylongcta">Send a message</button></a>
+
+
+                  </div>
+                  <div>
+                      <a href="https://dribbble.com/milanmundra98" class="fa extlink" target="_blank"><img src="images/dribbble.svg"></a>
+                      <a href="https://www.behance.net/milanmundra98" class="fa extlink" target="_blank"><img src="images/behance.svg"></a>
+                      <a href="https://medium.com/@milanmundra98" class="fa extlink" target="_blank"><img id="mediumicon" src="images/medium.svg"></a>
+                      <a href="https://www.linkedin.com/in/milan98/" class="fa extlink" target="_blank"><img src="images/linkedin.svg"></a>
+                      <a href="https://twitter.com/millons098" class="fa extlink" target="_blank"><img src="images/twitter.svg"></a>
+                  </div>
+
+              </div>
+          </div>
+
+      </div>
+      <!-- /.container -->
+    </div>
+  </div>
+	    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>	    
+        
+  <script src="lottie.js"></script>      
+
+  <script>
+  //Dark Mode
+
+    const themeToggle = document.getElementById('themetoggle');
+
+    var animation;
+    var x;	 
+	 
+
+    const themeStylesheet = document.getElementById('theme');
+
+    const storedTheme = parseInt(localStorage.getItem("themevalue")) || 0;
+    if(storedTheme == 0){
+          themeStylesheet.href = 'light-theme.css';
+	      animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data.json'
+          });
+	      x = 1; 
+        
+          document.getElementById('toplogo').src = "images/logo.svg";
+          document.getElementById('mediumicon').src = "images/medium.svg";
+          document.getElementById('header').src = "images/swiggywatch/swiggy_header.png";
+
+    }else if (storedTheme == 1) {
+          themeStylesheet.href = 'dark-theme.css';
+	      animation = bodymovin.loadAnimation({
+           container: themeToggle,
+           renderer: 'svg',
+           loop: false,
+           autoplay: false,
+           path: 'data2.json'
+         });
+	     x = -1;  
+        
+          document.getElementById('toplogo').src = "images/logo_dark.svg";
+          document.getElementById('mediumicon').src = "images/medium_dark.svg";
+          document.getElementById('header').src = "images/swiggywatch/swiggy_header_dark.png";
+
+    }
+
+      function toggle(){
+        // if it's light -> go dark
+          if(themeStylesheet.href.includes('light')){
+              themeStylesheet.href = 'dark-theme.css';
+              localStorage.setItem('themevalue','1');
+	          animation.setDirection(x);	 
+	          animation.play(); 	 
+
+              document.getElementById('toplogo').src = "images/logo_dark.svg";
+              document.getElementById('mediumicon').src = "images/medium_dark.svg";
+              document.getElementById('header').src = "images/swiggywatch/swiggy_header_dark.png";
+
+
+
+          } else {
+              // if it's dark -> go light
+              themeStylesheet.href = 'light-theme.css';
+              localStorage.setItem('themevalue','0');
+	          animation.setDirection(-x);
+	          animation.play();
+
+              document.getElementById('toplogo').src = "images/logo.svg";
+              document.getElementById('mediumicon').src = "images/medium.svg";
+              document.getElementById('header').src = "images/swiggywatch/swiggy_header.png";
+
+
+          }
+
+      }
+
+      themeToggle.addEventListener('click', toggle);
+
+
+  </script>
+	    
+  <script>
+      var preloader = document.getElementById('loader');
+      function preLoaderHandler(){
+         preloader.style.opacity = '0';
+         preloader.style.transition = 'opacity 0.5s ease';
+         setTimeout(function(){preloader.style.display = 'none';}, 500);
+      }
+  </script>	    
+
+</body>
+</html>
