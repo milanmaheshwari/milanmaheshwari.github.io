@@ -103,18 +103,18 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
 }
 
 .intro-message h1{
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   text-shadow: none;
-  font-size: 56;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 64px;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
   color: #050401;
 }
 
 .intro-message p{
-  font-size: 20px;
-  line-height: 40px;
-  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: 'Poppins', sans-serif;
   width: 720px;
   font-weight: 400;
   margin: auto;
@@ -128,7 +128,7 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
   background-color: #FF7D49;
   border-radius: 4px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   border: none;
   color: #FFFFFF;
@@ -140,7 +140,7 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
   background-color: #FF7D49;
   border-radius: 4px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   border: none;
   color: #FFFFFF;
@@ -164,46 +164,59 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
   margin-left: 64px;
 }
 
-h2.section-heading {
-font-family: 'Montserrat', sans-serif;
+.section-heading {
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 800;
-line-height: 44px;
-font-size: 24px;
+line-height: 40px;
+font-size: 28px;
 color: #050401;
 opacity: 1;
 margin-bottom: 0px;
-
 }
 
-h2.myaboutheading{
-  margin-bottom: 0px;
+#myaboutheading{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
   font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  color: #050401;
+  margin-bottom: 0px;
   margin-top: 12px;
+}
+#myaboutpara1{
+  margin-top: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #7D7C84;
 }
 
 .work-para {
-
-font-family: 'Open Sans', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-text-align: left;
-line-height: 32px;
-color: #7D7C84;
-width: 100%;
-margin-bottom: 48px;
-margin-top: 28px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+  line-height: 24px;
+  color: #7D7C84;
+  width: 100%;
+  margin-bottom: 48px;
+  margin-top: 12px;
 }
 
 .work-date {
 
-font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
-font-weight: 400;
+font-weight: 500;
 font-size: 16px;
 text-align: left;
-line-height: 32px;
+line-height: 24px;
 color: #333138;
 width: 100%;
 margin-top: 28px;
@@ -246,15 +259,15 @@ margin-left: -480px;
 .intro-message-contact {
 position: relative;
 padding-bottom: 48px;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
-font-weight: 800;
-line-height: 48px;
-font-size: 24px;
+font-weight: 700;
+line-height: 44px;
+font-size: 28px;
 text-align: center;
 color: #050401;
-
-
+width: 720px;
+margin: auto;
 }
 
 .mycontent{
@@ -265,10 +278,10 @@ color: #050401;
 padding-top: 96px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 padding-bottom: 96px;
 text-align: center;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 800;
-line-height: 47px;
+line-height: 44px;
 font-size: 24px;
 color: #050401;
 position: relative;
@@ -279,21 +292,20 @@ position: relative;
 }
 
 .extlink{
-  padding: 0px 12px;
+  padding: 0px 4px;
 }
 
 .myviewmore{
   margin: auto;
   margin-bottom: 100px;
   text-align: -webkit-center;
-
 }
 
 .viewmore{
   padding: 0px;
   border-radius: 4px;
   font-size: 14px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   width: 180px;
   height: 48px;
@@ -340,7 +352,7 @@ outline: none;
 }
 .topnav ul.navbar-nav li a {
 background:transparent;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -373,13 +385,21 @@ padding: 16px 16px;
 }
 
 .myaboutpara1{
-  margin-top: 32px;
-
+  margin-top: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: left;
+  color: #7D7C84;
 }
 
 img.hobbies{
   position: relative;
-  top: -32px;
+  top: 32px;
+  width: 400px;
+  border-radius: 24px;
 }
 
 .photosrow{
@@ -410,17 +430,19 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
   padding: 32px 0px;
 }
 
-
-
 .mysectionheading{
+  margin-top: 40px;
   padding-bottom: 0px;
+}
+.mysectioncontent{
+  margin-top: 40px;
 }
 
 .mysectionheading h1{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 800;
-line-height: 60px;
+line-height: 40px;
 font-size: 32px;
 text-align: center;
 color: #050401;
@@ -429,15 +451,15 @@ margin-top: 20px;
 }
 
 .mysectionheading p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 24px;
   font-size: 16px;
   text-align: center;
   color: #7D7C84;
   width: 72%;
-  margin: 24px auto 0px;
+  margin: 16px auto 0px;
 }
 
 .myexperience{
@@ -454,9 +476,16 @@ h2.myaboutheader{
   clear: left;
 }
 
+.gamesrow{
+  margin-top: 100px;
+}
+
+.lnmrow{
+  margin: 80px 0 140px;
+}
+
 img.hobbies2{
   display: none;
-
 }
 
 .mypics2, .photosrec2{
@@ -617,6 +646,23 @@ img.exporangerec{
   top:  88px;
 }
 
+img.expgreenrec2{
+  position: absolute;
+  left: 56px;
+  bottom:  1000px;
+}
+
+img.expbluerec2{
+  position: absolute;
+  left: 0px;
+  bottom:  450px;
+}
+
+img.exporangerec2{
+  position: absolute;
+  right: 0px;
+  bottom:  500px;
+}
 
 .storyheaderimage img{
   width: 100%;
@@ -743,6 +789,12 @@ p.highlight{
 .expmobile{
   display: none;
 }
+.gamesmobile{
+  display: none;
+}
+.tripmobile{
+  display: none;
+}
 
 .cleartrip_prototype iframe{
   margin-top: 20px;
@@ -750,7 +802,7 @@ p.highlight{
   height: 100%;
 }
 
- .recharge_prototype iframe{
+.recharge_prototype iframe{
   margin-top: 20px;
   width:100%;
   height: 100%;
@@ -767,6 +819,10 @@ p.highlight{
   transform: scale(0.75);
 }
 
+.extlinkimg{
+  width: 36px;
+  height: 36px;
+}
 
 }
 
@@ -847,20 +903,20 @@ p.highlight{
   }
 
   .intro-message h1{
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     text-shadow: none;
-    font-size: 48;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     color: #050401;
   }
 
   .intro-message p{
     font-size: 16px;
-    line-height: 36px;
-    font-family: 'Open Sans', sans-serif;
-    width: 640px;
-    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
+    width: 600px;
+    font-weight: 400;
     margin: auto;
     margin-bottom: 48px;
     color: #7D7C84;
@@ -872,7 +928,7 @@ p.highlight{
     background-color: #FF7D49;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border: none;
     color: #FFFFFF;
@@ -884,7 +940,7 @@ p.highlight{
     background-color: #FF7D49;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border: none;
     color: #FFFFFF;
@@ -905,14 +961,12 @@ p.highlight{
     border-radius: 4px;
   }
 
-
-
   h2.section-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 36px;
-  font-size: 20px;
+  line-height: 32px;
+  font-size: 24px;
   color: #050401;
   opacity: 1;
   margin-top: 0px;
@@ -920,25 +974,23 @@ p.highlight{
   }
 
   .work-para {
-
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
-  line-height: 32px;
+  line-height: 20px;
   color: #7D7C84;
   width: 100%;
-  margin-bottom: 36px;
+  margin-bottom: 40px;
   margin-top: 20px;
   }
 
   .work-date {
-
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
   text-align: left;
   line-height: 32px;
   color: #333138;
@@ -958,7 +1010,8 @@ p.highlight{
   }*/
 
   .myworktext{
-    margin-left: 36px;
+    margin-left: 40px;
+    margin-top: 12px;
   }
 
   .myworktext h2{
@@ -990,14 +1043,15 @@ p.highlight{
   .intro-message-contact {
   position: relative;
   padding-bottom: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
   line-height: 44px;
   font-size: 24px;
   text-align: center;
   color: #050401;
-
+  width: 600px;
+  margin: 0 auto 20px;
   }
 
   .mycontent{
@@ -1008,10 +1062,10 @@ p.highlight{
   padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 80px;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 47px;
+  line-height: 44px;
   font-size: 24px;
   color: #050401;
   position: relative;
@@ -1022,7 +1076,11 @@ p.highlight{
   }
 
   .extlink{
-    padding: 0px 12px;
+    padding: 0px 4px;
+  }
+  .extlinkimg{
+    width: 36px;
+    height: 36px;
   }
 
   .myviewmore{
@@ -1033,11 +1091,10 @@ p.highlight{
   }
 
   .viewmore{
-
     padding: 0px;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     width: 180px;
     height: 48px;
@@ -1045,7 +1102,6 @@ p.highlight{
     border: none;
     color: #333138;
     box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
-
   }
 
   .viewmore:hover{
@@ -1059,8 +1115,6 @@ p.highlight{
   outline: none;
   }
 
-
-
   .intro-header {
       padding-top: 80px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
       padding-bottom: 80px;
@@ -1068,7 +1122,6 @@ p.highlight{
       border-bottom: 0.5px solid rgba(5,4,1,0.3);
       background-size: cover;
       height: 640px;
-
   }
 
   .myworkimg img{
@@ -1113,15 +1166,44 @@ p.highlight{
     z-index: -2;
   }
 
+  .myaboutpara1{
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    text-align: left;
+    color: #7D7C84;
+  }
 
+  #myaboutheading{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #050401;
+    margin-bottom: 0px;
+    margin-top: 20px;
+  }
+  #myaboutpara1{
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7D7C84;
+  }
 
   img.hobbies{
     position: relative;
-    top: -36px;
-    left: -12px;
-    height: 346px;
+    top: 12px;
     width: 400px;
+    border-radius: 24px;
   }
+  
 
   .photosrow{
     position: relative;
@@ -1135,8 +1217,6 @@ p.highlight{
     height: 560px;
     width: 1000px;
   }
-
-
 
   .about-rows3{
     margin: 80px 0px;
@@ -1156,14 +1236,25 @@ p.highlight{
   }
 
   .mysectionheading{
+    margin-top: 40px;
     padding-bottom: 0px;
   }
 
+  .mysectioncontent{
+    margin-top: 20px;
+  }
+  .gamesrow{
+    margin-top: 120px;
+  }
+  .lnmrow{
+    margin: 80px 0 160px;
+  }
+
   .mysectionheading h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 48px;
+  line-height: 40px;
   font-size: 28px;
   text-align: center;
   color: #050401;
@@ -1172,15 +1263,15 @@ p.highlight{
   }
 
   .mysectionheading p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 32px;
+    line-height: 24px;
     font-size: 16px;
     text-align: center;
     color: #7D7C84;
     width: 84%;
-    margin: 24px auto 0px;
+    margin: 16px auto 0px;
   }
 
   .myexperience{
@@ -1199,7 +1290,6 @@ p.highlight{
 
 .about-rows1{
   margin: 160px 0px 80px;
-
 }
 
 .about-rows2{
@@ -1218,15 +1308,6 @@ p.highlight{
 
 img.hobbies2{
   display: none;
-  width: 640px;
-  height: 180px;
-  position: relative;
-
-}
-
-h2.myaboutheading{
-  font-size: 32px;
-  line-height: 52px;
 }
 
 .mypics2, .photosrec2{
@@ -1402,6 +1483,27 @@ img.exporangerec{
   width: 180px;
 }
 
+img.expgreenrec2{
+  position: absolute;
+  left: 56px;
+  bottom:  840px;
+  width: 80px;
+}
+
+img.expbluerec2{
+  position: absolute;
+  left: 0px;
+  bottom:  440px;
+  width: 120px;
+}
+
+img.exporangerec2{
+  position: absolute;
+  right: 0px;
+  bottom:  520px;
+  width: 160px;
+}
+
 .storyheaderimage img{
   width: 100%;
 }
@@ -1530,6 +1632,12 @@ p.highlight{
 .expmobile{
   display: none;
 }
+.gamesmobile{
+  display: none;
+}
+.tripmobile{
+  display: none;
+}
 
 .cleartrip_prototype iframe{
   margin-top: 20px;
@@ -1622,18 +1730,18 @@ p.highlight{
   }
 
   .intro-message h1{
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     text-shadow: none;
-    font-size: 48;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
     color: #050401;
   }
 
   .intro-message p{
     font-size: 16px;
-    line-height: 36px;
-    font-family: 'Open Sans', sans-serif;
+    line-height: 24px;
+    font-family: 'Poppins', sans-serif;
     width: 560px;
     font-weight: 400;
     margin: auto;
@@ -1647,7 +1755,7 @@ p.highlight{
     background-color: #FF7D49;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border: none;
     color: #FFFFFF;
@@ -1659,7 +1767,7 @@ p.highlight{
     background-color: #FF7D49;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     border: none;
     color: #FFFFFF;
@@ -1680,11 +1788,11 @@ p.highlight{
   }
 
   h2.section-heading {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 44px;
-  font-size: 24px;
+  line-height: 40px;
+  font-size: 28px;
   color: #050401;
   opacity: 1;
   margin-top: 56px;
@@ -1693,12 +1801,12 @@ p.highlight{
 
   .work-para {
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   text-align: left;
-  line-height: 32px;
+  line-height: 24px;
   color: #7D7C84;
   width: 100%;
   margin-bottom: 24px;
@@ -1707,12 +1815,12 @@ p.highlight{
 
   .work-date {
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
   text-align: left;
-  line-height: 32px;
+  line-height: 24px;
   color: #333138;
   width: 100%;
   margin-top: 12px;
@@ -1752,13 +1860,15 @@ p.highlight{
   .intro-message-contact {
   position: relative;
   padding-bottom: 36px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 48px;
+  line-height: 40px;
   font-size: 24px;
   text-align: center;
   color: #050401;
+  width: 560px;
+  margin: 0 auto;
   }
 
   .mycontent{
@@ -1772,7 +1882,7 @@ p.highlight{
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 47px;
+  line-height: 44px;
   font-size: 24px;
   color: #050401;
   }
@@ -1781,9 +1891,14 @@ p.highlight{
     margin-bottom: 36px;
   }
 
-  .extlink{
-    padding: 0px 12px;
-  }
+.extlink{
+  padding: 0px 4px;
+}  
+  
+.extlinkimg{
+  width: 36px;
+  height: 36px;
+}
 
   .myviewmore{
     margin: auto;
@@ -1795,7 +1910,7 @@ p.highlight{
     padding: 0px;
     border-radius: 4px;
     font-size: 14px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
     width: 180px;
     height: 48px;
@@ -1803,7 +1918,6 @@ p.highlight{
     border: none;
     color: #333138;
     box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
-
   }
 
   .viewmore:hover{
@@ -1825,7 +1939,6 @@ p.highlight{
       border-bottom: 0.5px solid rgba(5,4,1,0.2);
       background-size: cover;
       height: 640px;
-
   }
 
   .myworkimg img{
@@ -1884,19 +1997,45 @@ p.highlight{
     z-index: -2;
   }
 
-
-
-  img.hobbies{
-    display: none;
-
+  .myaboutpara1{
+    margin-top: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7D7C84;
+  }
+  #myaboutheading{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    color: #050401;
+    margin-bottom: 0px;
+    margin-top: 60px;
+  }
+  #myaboutpara1{
+    margin-top: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7D7C84;
   }
 
   img.hobbies2{
+    display: none;
+  }
+
+  img.hobbies{
     display: block;
-    width: 640px;
-    height: 180px;
+    width: 480px;
     position: relative;
-    left: -80px;
+    border-radius: 24px;
+    top: 20px;
   }
 
   .photosrow{
@@ -1935,31 +2074,31 @@ p.highlight{
   }
 
   .mysectionheading h1{
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 800;
-  line-height: 48px;
+  line-height: 40px;
   font-size: 28px;
-  text-align: center;
+  text-align: left;
   color: #050401;
   margin-bottom: 0px;
   margin-top: 20px;
   }
 
   .mysectionheading p{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
-    line-height: 28px;
+    line-height: 24px;
     font-size: 14px;
-    text-align: center;
+    text-align: left;
     color: #7D7C84;
-    margin: 20px auto 0px;
+    margin: 12px auto 0px;
     width: 100%;
   }
 
   .myexperience{
-    margin: 20px 0px;
+    margin: 40px 0px;
   }
 
   h2.myaboutheader{
@@ -1972,9 +2111,16 @@ p.highlight{
   clear: left;
 }
 
+.gamesrow{
+  margin-top: 80px;
+}
+
+.lnmrow{
+  margin: 60px 0 140px;
+}
+
 .about-rows1{
   margin: 160px 0px 40px;
-
 }
 
 .about-rows2{
@@ -2150,6 +2296,18 @@ img.exporangerec{
   display: none;
 }
 
+img.expgreenrec2{
+  display: none;
+}
+
+img.expbluerec2{
+  display: none;
+}
+
+img.exporangerec2{
+  display: none;
+}
+
 .storyheaderimage img{
   width: 100%;
 }
@@ -2271,6 +2429,12 @@ p.highlight{
 .expmobile{
   display: none;
 }
+.gamesmobile{
+  display: none;
+}
+.tripmobile{
+  display: none;
+}
 
 .cleartrip_prototype iframe{
   margin-top: 12px;
@@ -2387,28 +2551,27 @@ p.highlight{
     }
 
     .intro-message h1{
-      margin-bottom: 20px;
       text-shadow: none;
-      font-size: 32;
-      font-family: 'Montserrat', sans-serif;
+      font-size: 32px;
+      font-family: 'Poppins', sans-serif;
       font-weight: 800;
       width: 328px;
       margin-left: auto;
       margin-right: auto;
-      line-height: 48px;
+      line-height: 40px;
       margin-top: 16px;
+      margin-bottom: 16px;
     }
 
     .intro-message p{
       font-size: 14px;
-      line-height: 32px;
-      font-family: 'Open Sans', sans-serif;
+      line-height: 24px;
+      font-family: 'Poppins', sans-serif;
       font-weight: 400;
       margin: auto;
       margin-bottom: 56px;
       width: 320px;
       color: #7D7C84;
-
     }
 
     .myshortcta{
@@ -2417,7 +2580,7 @@ p.highlight{
       background-color: #FF7D49;
       border-radius: 4px;
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-weight: 600;
       border: none;
       color: #FFFFFF;
@@ -2429,39 +2592,34 @@ p.highlight{
       background-color: #FF7D49;
       border-radius: 4px;
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-weight: 600;
       border: none;
       color: #FFFFFF;
     }
 
-
-
-
     .work-image{
       border-radius: 4px;
     }
 
-
-
     h2.section-heading {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
-    line-height: 36px;
     font-size: 20px;
+    line-height: 32px;
     color: #050401;
     opacity: 1;
     margin-top: 4px;
     }
 
     .work-para {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     text-align: left;
-    line-height: 28px;
+    line-height: 24px;
     color: #333138;
     opacity: 1;
     width: 100%;
@@ -2470,13 +2628,12 @@ p.highlight{
     }
 
     .work-date {
-
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
     text-align: left;
-    line-height: 28px;
+    line-height: 24px;
     color: #333138;
     width: 100%;
     margin-top: 12px;
@@ -2485,8 +2642,6 @@ p.highlight{
     /*.container{
       width: 1136px;
     }*/
-
-
 
     .myworktext h2{
       margin-bottom: 0px;
@@ -2516,22 +2671,18 @@ p.highlight{
     .intro-message-contact {
     position: relative;
     padding-bottom: 36px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
-    line-height: 36px;
+    line-height: 32px;
     font-size: 20px;
     text-align: center;
     color: #050401;
-
-
     }
 
     .mycontent{
       border-bottom: 0.5px solid rgba(5,4,1,0.2);
     }
-
-
 
     .intro-header-contact {
     padding-top: 56px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -2550,22 +2701,24 @@ p.highlight{
     }
 
     .extlink{
-      padding: 0px 12px;
+      padding: 0px 4px;
+    }
+    .extlinkimg{
+      width: 40px;
+      height: 40px;
     }
 
     .myviewmore{
       margin: auto;
       margin-bottom: 56px;
-        text-align: -webkit-center;
-
+      text-align: -webkit-center;
     }
 
     .viewmore{
-
       padding: 0px;
       border-radius: 4px;
       font-size: 14px;
-      font-family: 'Montserrat', sans-serif;
+      font-family: 'Poppins', sans-serif;
       font-weight: 600;
       width: 180px;
       height: 48px;
@@ -2573,7 +2726,6 @@ p.highlight{
       border: none;
       color: #333138;
       box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
-
     }
 
     .viewmore:hover{
@@ -2677,17 +2829,39 @@ ul.mynavlinks li{
   height: 336px;
 }
 
+img.hobbies{
+  position: relative;
+  top: 32px;
+  width: 100%;
+  border-radius: 24px;
+}
 
+#myaboutheading{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 32px;
+  font-weight: 900;
+  line-height: 44px;
+  color: #050401;
+  margin-bottom: 0px;
+  margin-top: 16px;
+}
+#myaboutpara1{
+  margin-top: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333138;
+}
 
 img.hobbies{
   width: 328px;
-  height: 304px;
-
 }
 
 img.hobbies2{
   display: none;
-
 }
 
 .photosrec{
@@ -2713,7 +2887,6 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
 
 .experiencepic img{
   width: 328px;
-
 }
 
 .mysectionheading{
@@ -2721,26 +2894,26 @@ border-bottom: 0.5px solid rgba(5,4,1,0.2);
 }
 
 .mysectionheading h1{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
 font-style: normal;
 font-weight: 800;
-line-height: 48px;
-font-size: 28px;
-text-align: center;
+line-height: 40px;
+font-size: 24px;
+text-align: left;
 color: #050401;
 margin-bottom: 0px;
 margin-top: 20px;
 }
 
 .mysectionheading p{
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 400;
-  line-height: 28px;
-  font-size: 14px;
-  text-align: center;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: left;
   color: #333138;
-  margin: 20px auto 0px;
+  margin: 8px auto 0px;
 }
 
 .myexperience{
@@ -2748,19 +2921,42 @@ margin-top: 20px;
 }
 
 h2.myaboutheader{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
   font-size: 24px;
-  line-height: 36px;
-  margin-top: 0px;
+  text-align: left;
+  color: #050401;
   margin-bottom: 0px;
+  margin-top: 20px;
+}
+.myaboutpara1{
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  font-size: 16px;
+  text-align: left;
+  color: #333138;
+  margin: 8px auto 0px;
 }
 
 .myexptext{
 clear: left;
 }
 
+.gamesrow{
+  margin-top: 32px;
+}
+
+.lnmrow{
+  margin: 32px 0 100px;
+}
+
+
 .about-rows1{
 margin: 100px 0px 40px;
-
 }
 
 .about-rows2{
@@ -2792,18 +2988,12 @@ top: -432px;
 
 .me1{
   width: 328px;
-  height: 228px;
-
 }
 
 .me2{
   width: 284px;
   height: 278px;
   margin-left: 22px;
-}
-
-.myaboutpara1{
- margin-top: 20px;
 }
 
 .myabouttxt{
@@ -2817,8 +3007,6 @@ top: -432px;
 }
 
 .myabouttxt2 h1{
-  margin-top: 0px;
-  margin-bottom: 0px;
   line-height: 32px;
   font-size: 24px;
   text-align: left;
@@ -2826,7 +3014,6 @@ top: -432px;
 
 .myabouttxt2 p{
   text-align: left;
-
 }
 
 .photosrow{
@@ -2840,7 +3027,6 @@ top: -432px;
   top: -60px;
   width: 340px;
   height: 480px
-
 }
 
 .contactcontent{
@@ -2983,6 +3169,30 @@ img.exporangerec{
   display: none;
 }
 
+img.expgreenrec{
+  display: none;
+}
+
+img.expbluerec{
+  display: none;
+}
+
+img.exporangerec{
+  display: none;
+}
+
+img.expgreenrec2{
+  display: none;
+}
+
+img.expbluerec2{
+  display: none;
+}
+
+img.exporangerec2{
+  display: none;
+}
+
 .storyheaderimage img{
   width: 100%;
 }
@@ -2997,7 +3207,7 @@ img.headermobile{
 
 .content img{
   width: 100%;
-  margin: 16px 0px;
+  margin: 40px 0px;
   border-radius: 4px;
 }
 
@@ -3012,7 +3222,6 @@ img.headermobile{
 
 .storyhighlight{
   background: #f9f9f9;
-
 }
 
 .imagelarge{
@@ -3115,8 +3324,21 @@ p.highlight{
 .expmobile{
   display: block;
 }
-
 .expnonmobile{
+  display: none;
+}
+
+.gamesmobile{
+  display: block;
+}
+.gamesnonmobile{
+  display: none;
+}
+
+.tripmobile{
+  display: block;
+}
+.tripnonmobile{
   display: none;
 }
 
